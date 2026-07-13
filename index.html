@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omar Institute — honest intellectual reflection</title>
+<meta name="description" content="The biggest questions in life deserve honest intellectual reflection, not borrowed answers. Home of The World Through Time — a visual history of the world from the first humans to 1945.">
+<style>
+:root{
+  --ink:#101830; --ink2:#16203d; --ink3:#1e2a4e; --line:#2a3a63;
+  --gold:#c9a13b; --gold-soft:#e6cd8c; --gold-dim:#8a7333;
+  --silver:#9db1c7; --silver-dim:#5d7089;
+  --ivory:#f0e8d6; --dim:#98a1ba;
+  --disp:"Palatino Linotype",Palatino,"Iowan Old Style","Book Antiqua","URW Palladio L",Georgia,serif;
+  --body:Georgia,"Times New Roman",serif;
+  --ui:"Gill Sans","Gill Sans MT","Segoe UI",Avenir,system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--ink);color:var(--ivory);font-family:var(--body);line-height:1.6}
+::selection{background:var(--gold);color:var(--ink)}
+a{color:var(--gold-soft)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+
+.mast{border-bottom:1px solid var(--line)}
+.mast .wrap{display:flex;align-items:center;justify-content:space-between;padding:20px;gap:14px;flex-wrap:wrap}
+.logo{font-family:var(--disp);font-size:19px;letter-spacing:.04em}
+.logo .o{color:var(--gold)}
+.mast nav a{font-family:var(--ui);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);text-decoration:none;margin-left:26px}
+.mast nav a:hover,.mast nav a:focus-visible{color:var(--gold-soft)}
+
+.mission{padding:88px 0 74px;text-align:center;background:radial-gradient(1100px 480px at 50% -180px,#1c2952 0%,var(--ink) 72%)}
+.mission .eyebrow{font-family:var(--ui);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+.mission blockquote{font-family:var(--disp);font-weight:400;font-size:clamp(21px,3.3vw,32px);line-height:1.5;max-width:830px;margin:0 auto;color:var(--ivory)}
+.mission blockquote .hl{color:var(--gold-soft)}
+.rule{width:64px;height:1px;background:var(--gold-dim);margin:36px auto 0}
+
+.projects{padding:66px 0 4px}
+.sh{font-family:var(--ui);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:26px}
+.plist{list-style:none}
+.plist li{border-bottom:1px solid var(--line)}
+.plist a{display:flex;align-items:baseline;gap:18px;padding:22px 4px;text-decoration:none;flex-wrap:wrap;transition:padding-left .18s}
+.plist a:hover,.plist a:focus-visible{padding-left:12px;outline:none}
+.plist .pt{font-family:var(--disp);font-size:clamp(21px,3vw,28px);color:var(--ivory)}
+.plist a:hover .pt{color:var(--gold-soft)}
+.plist .pd{color:var(--dim);font-size:15px;flex:1;min-width:230px}
+.plist .go{font-family:var(--ui);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+
+.spot{padding:52px 0 0}
+.spot-card{border:1px solid var(--line);border-radius:10px;background:var(--ink2);overflow:hidden}
+.spot-vis{background:#0c1428;border-bottom:1px solid var(--line)}
+.spot-vis svg{display:block;width:100%;height:auto}
+.spot-body{padding:30px 30px 36px}
+.spot-body .kick{font-family:var(--ui);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.spot-body h2{font-family:var(--disp);font-weight:400;font-size:clamp(24px,3.6vw,34px);line-height:1.2}
+.spot-body p{margin-top:16px;color:var(--dim);font-size:16px;max-width:760px}
+.spot-body p b{color:var(--ivory);font-weight:normal}
+.why{margin-top:26px;padding:20px 22px;background:var(--ink);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:5px;max-width:760px}
+.why .wt{font-family:var(--ui);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:9px}
+.why p{margin:0;color:var(--dim);font-size:15.5px}
+.stats{display:flex;gap:34px;flex-wrap:wrap;margin-top:28px}
+.stats .n{font-family:var(--disp);font-size:26px;color:var(--gold-soft)}
+.stats .l{font-family:var(--ui);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-top:3px}
+.cta{display:inline-block;margin-top:32px;font-family:var(--ui);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);background:var(--gold);border-radius:999px;padding:14px 30px;text-decoration:none}
+.cta:hover,.cta:focus-visible{background:var(--gold-soft)}
+
+footer{border-top:1px solid var(--line);margin-top:76px;padding:42px 0 60px;background:var(--ink2)}
+footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
+footer .c{font-family:var(--ui);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+footer a{font-family:var(--ui);font-size:12px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:var(--dim)}
+footer a:hover{color:var(--gold-soft)}
+</style>
+</head>
+<body>
+
+<div class="mast"><div class="wrap">
+  <div class="logo"><span class="o">Omar</span> Institute</div>
+  <nav><a href="#projects">Projects</a><a href="timeline.html">The World Through Time</a></nav>
+</div></div>
+
+<section class="mission"><div class="wrap">
+  <div class="eyebrow">Omar Institute</div>
+  <blockquote>The biggest questions in life deserve <span class="hl">honest intellectual reflection</span>, not borrowed answers. We hope you find something here that sparks curiosity, guides you towards self-discovery and purpose, and moves you closer to the truth you have been looking for.</blockquote>
+  <div class="rule"></div>
+</div></section>
+
+<section class="projects" id="projects"><div class="wrap">
+  <div class="sh">Projects</div>
+  <ul class="plist">
+    <li><a href="timeline.html">
+      <span class="pt">The World Through Time</span>
+      <span class="pd">A visual history of the world, from the first humans to 1945 — with the map of every era.</span>
+      <span class="go">Open &rarr;</span>
+    </a></li>
+  </ul>
+</div></section>
+
+<section class="spot"><div class="wrap">
+  <div class="spot-card">
+    <div class="spot-vis">
+      <svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Preview of the two-rail timeline: the line of the prophets and the wider world">
+        <defs>
+          <linearGradient id="fade" x1="0" x2="1">
+            <stop offset="0" stop-color="#0c1428" stop-opacity="1"/>
+            <stop offset="0.07" stop-color="#0c1428" stop-opacity="0"/>
+            <stop offset="0.93" stop-color="#0c1428" stop-opacity="0"/>
+            <stop offset="1" stop-color="#0c1428" stop-opacity="1"/>
+          </linearGradient>
+        </defs>
+        <rect width="1000" height="250" fill="#0c1428"/>
+        <line x1="0" y1="125" x2="1000" y2="125" stroke="#8a7333" stroke-width="2"/>
+        <line x1="700" y1="132" x2="1000" y2="132" stroke="#e6cd8c" stroke-width="1" opacity="0.45"/>
+        <text x="712" y="146" fill="#8a7333" font-family="Gill Sans, Segoe UI, sans-serif" font-size="8.5" letter-spacing="1.4">ISLAMIC DATING BEGINS · 622 CE</text>
+
+        <g stroke="#2a3a63" stroke-width="1" stroke-dasharray="3 3">
+          <line x1="250" y1="118" x2="343" y2="118"/><line x1="620" y1="118" x2="700" y2="118"/>
+        </g>
+
+        <g fill="#c9a13b">
+          <circle cx="90" cy="125" r="6"/><circle cx="250" cy="125" r="6"/><circle cx="430" cy="125" r="6"/>
+          <circle cx="620" cy="125" r="6"/><circle cx="790" cy="125" r="7"/><circle cx="930" cy="125" r="6"/>
+        </g>
+        <g fill="#f0e8d6" font-family="Palatino, Georgia, serif" font-size="13.5">
+          <text x="90"  y="158" text-anchor="middle">Adam</text>
+          <text x="250" y="158" text-anchor="middle">Abraham</text>
+          <text x="430" y="158" text-anchor="middle">Moses</text>
+          <text x="620" y="158" text-anchor="middle">Jesus</text>
+          <text x="790" y="158" text-anchor="middle">Muhammad</text>
+          <text x="930" y="158" text-anchor="middle">1924</text>
+        </g>
+        <g fill="#8a7333" font-family="Gill Sans, Segoe UI, sans-serif" font-size="8.5" letter-spacing="1.5">
+          <text x="90"  y="176" text-anchor="middle">UNDATED</text>
+          <text x="250" y="176" text-anchor="middle">~2000 BC</text>
+          <text x="430" y="176" text-anchor="middle">~1250 BC</text>
+          <text x="620" y="176" text-anchor="middle">~1–33 CE</text>
+          <text x="790" y="176" text-anchor="middle">570–632 CE</text>
+          <text x="930" y="176" text-anchor="middle">CALIPHATE ENDS</text>
+        </g>
+
+        <g fill="#9db1c7">
+          <rect x="152" y="119.5" width="11" height="11" transform="rotate(45 157.5 125)"/>
+          <rect x="338" y="119.5" width="11" height="11" transform="rotate(45 343.5 125)"/>
+          <rect x="520" y="119.5" width="11" height="11" transform="rotate(45 525.5 125)"/>
+          <rect x="695" y="119.5" width="11" height="11" transform="rotate(45 700.5 125)"/>
+          <rect x="866" y="119.5" width="11" height="11" transform="rotate(45 871.5 125)"/>
+        </g>
+        <g fill="#f0e8d6" font-family="Palatino, Georgia, serif" font-size="13.5">
+          <text x="157" y="96" text-anchor="middle">The pyramids</text>
+          <text x="343" y="96" text-anchor="middle">Indus cities</text>
+          <text x="525" y="96" text-anchor="middle">Athens</text>
+          <text x="700" y="96" text-anchor="middle">Rome falls</text>
+          <text x="871" y="96" text-anchor="middle">Industry</text>
+        </g>
+        <g fill="#5d7089" font-family="Gill Sans, Segoe UI, sans-serif" font-size="8.5" letter-spacing="1.5">
+          <text x="157" y="78" text-anchor="middle">~2560 BC</text>
+          <text x="343" y="78" text-anchor="middle">~2000 BC</text>
+          <text x="525" y="78" text-anchor="middle">~450 BC</text>
+          <text x="700" y="78" text-anchor="middle">476 CE</text>
+          <text x="871" y="78" text-anchor="middle">1760–1871</text>
+        </g>
+
+        <text x="500" y="215" text-anchor="middle" fill="#98a1ba" font-family="Gill Sans, Segoe UI, sans-serif" font-size="10" letter-spacing="2.6">TWO RAILS · THE LINE OF THE PROPHETS, AND THE WIDER WORLD</text>
+        <rect width="1000" height="250" fill="url(#fade)"/>
+      </svg>
+    </div>
+    <div class="spot-body">
+      <div class="kick">Spotlight</div>
+      <h2>The World Through Time</h2>
+      <p>A scrollable timeline of everything, from the first humans to the end of the Second World War. <b>One rail follows the line of the prophets</b> — Adam, Noah, Abraham, Moses, David, Jesus and Muhammad (peace be upon them), and the civilisations that grew from them. <b>The other rail follows the wider world</b> — Egypt, the Indus cities, Babylon, China, Greece, Rome, the Aztecs, the Industrial Revolution. Where the two rails sit side by side, those things were happening at the very same moment.</p>
+      <p>Click any entry and it opens <b>the world map of that exact era</b> — the real borders of the time, not today's. Hover any land and it tells you who ruled it then. Gold pins mark the places in the story, each with the name it carried then, the name it carries now, and its coordinates. Every age also carries its languages, its money, its daily life, its trade routes and its wonders — and a <b>Moral Ledger</b> naming that age's worst injustices and its fairest societies, whoever they happened to be.</p>
+
+      <div class="why">
+        <div class="wt">Why it exists</div>
+        <p>Because reading history should not mean losing your place on the map. If you have ever read about a prophet, a battle or an empire and wondered <i>where exactly was that, what is it called today, and what on earth was happening everywhere else at the time</i> — that question is what this was built to answer. It assumes no background knowledge and no particular faith. Religious terms are explained in plain English with the original word in brackets, undated eras are left honestly undated rather than filled with invented years, and injustice is named wherever it occurred, by whoever committed it.</p>
+      </div>
+
+      <div class="stats">
+        <div><div class="n">82</div><div class="l">Entries</div></div>
+        <div><div class="n">32</div><div class="l">Era maps</div></div>
+        <div><div class="n">13</div><div class="l">Era panels</div></div>
+        <div><div class="n">3000 BC – 1945</div><div class="l">Mapped range</div></div>
+      </div>
+
+      <a class="cta" href="timeline.html">Open the timeline &rarr;</a>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span class="c">&copy; Omar Institute 2026</span>
+  <a href="timeline.html">The World Through Time &rarr;</a>
+</div></footer>
+
+</body>
+</html>
