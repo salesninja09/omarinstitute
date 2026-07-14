@@ -46,6 +46,9 @@ a{color:var(--gold-soft)}
 .plist a:hover .pt{color:var(--gold-soft)}
 .plist .pd{color:var(--dim);font-size:15px;flex:1;min-width:230px}
 .plist .go{font-family:var(--ui);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.plist a.soon{opacity:.55}
+.plist a.soon:hover{padding-left:4px}
+.plist a.soon .go{color:var(--silver)}
 
 .spot{padding:52px 0 0}
 .spot-card{border:1px solid var(--line);border-radius:10px;background:var(--ink2);overflow:hidden}
@@ -90,8 +93,13 @@ footer a:hover{color:var(--gold-soft)}
   <ul class="plist">
     <li><a href="timeline.html">
       <span class="pt">The World Through Time</span>
-      <span class="pd">A visual history of the world, from the first humans to 1945 — with the map of every era.</span>
+      <span class="pd">A history of the world from the first people to 1945, with the map of every era, and everyone who was alive at the same time.</span>
       <span class="go">Open &rarr;</span>
+    </a></li>
+    <li><a href="kids.html">
+      <span class="pt">The World Through Time, for Children</span>
+      <span class="pd">The same story, told for younger readers, and followed all the way through by the animals who were there.</span>
+      <span class="go">In development &rarr;</span>
     </a></li>
   </ul>
 </div></section>
@@ -99,7 +107,7 @@ footer a:hover{color:var(--gold-soft)}
 <section class="spot"><div class="wrap">
   <div class="spot-card">
     <div class="spot-vis">
-      <svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Preview of the two-rail timeline: the line of the prophets and the wider world">
+      <svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Preview of the two-rail timeline: the Long Thread and the Wider World">
         <defs>
           <linearGradient id="fade" x1="0" x2="1">
             <stop offset="0" stop-color="#0c1428" stop-opacity="1"/>
@@ -111,7 +119,7 @@ footer a:hover{color:var(--gold-soft)}
         <rect width="1000" height="250" fill="#0c1428"/>
         <line x1="0" y1="125" x2="1000" y2="125" stroke="#8a7333" stroke-width="2"/>
         <line x1="700" y1="132" x2="1000" y2="132" stroke="#e6cd8c" stroke-width="1" opacity="0.45"/>
-        <text x="712" y="146" fill="#8a7333" font-family="Gill Sans, Segoe UI, sans-serif" font-size="8.5" letter-spacing="1.4">ISLAMIC DATING BEGINS · 622 CE</text>
+        <text x="712" y="146" fill="#8a7333" font-family="Gill Sans, Segoe UI, sans-serif" font-size="8.5" letter-spacing="1.4">MUSLIM DATING BEGINS · 622</text>
 
         <g stroke="#2a3a63" stroke-width="1" stroke-dasharray="3 3">
           <line x1="250" y1="118" x2="343" y2="118"/><line x1="620" y1="118" x2="700" y2="118"/>
@@ -160,25 +168,25 @@ footer a:hover{color:var(--gold-soft)}
           <text x="871" y="78" text-anchor="middle">1760–1871</text>
         </g>
 
-        <text x="500" y="215" text-anchor="middle" fill="#98a1ba" font-family="Gill Sans, Segoe UI, sans-serif" font-size="10" letter-spacing="2.6">TWO RAILS · THE LINE OF THE PROPHETS, AND THE WIDER WORLD</text>
+        <text x="500" y="215" text-anchor="middle" fill="#98a1ba" font-family="Gill Sans, Segoe UI, sans-serif" font-size="10" letter-spacing="2.6">TWO RAILS · THE LONG THREAD, AND THE WIDER WORLD</text>
         <rect width="1000" height="250" fill="url(#fade)"/>
       </svg>
     </div>
     <div class="spot-body">
       <div class="kick">Spotlight</div>
       <h2>The World Through Time</h2>
-      <p>A scrollable timeline of everything, from the first humans to the end of the Second World War. <b>One rail follows the line of the prophets</b> — Adam, Noah, Abraham, Moses, David, Jesus and Muhammad (peace be upon them), and the civilisations that grew from them. <b>The other rail follows the wider world</b> — Egypt, the Indus cities, Babylon, China, Greece, Rome, the Aztecs, the Industrial Revolution. Where the two rails sit side by side, those things were happening at the very same moment.</p>
-      <p>Click any entry and it opens <b>the world map of that exact era</b> — the real borders of the time, not today's. Hover any land and it tells you who ruled it then. Gold pins mark the places in the story, each with the name it carried then, the name it carries now, and its coordinates. Every age also carries its languages, its money, its daily life, its trade routes and its wonders — and a <b>Moral Ledger</b> naming that age's worst injustices and its fairest societies, whoever they happened to be.</p>
+      <p>A timeline of the whole world, from the first people to the end of the Second World War, running on two rails. The gold rail is <b>the Long Thread</b>: one continuous story, from Adam through Abraham, Moses, Jesus and Muhammad, to the civilisations that grew out of them. The silver rail is <b>the Wider World</b>: everyone else who was alive at the same moment, from Egypt and China to Athens, Rome, Cahokia, Great Zimbabwe and the navigators of the Pacific. Where two entries sit facing each other across the rails, those things were happening at the same time.</p>
+      <p>Click any entry and it opens <b>the map of that exact age</b>, with the borders as they really were and not as they are now. Hover over any land and it tells you what state held it then. Gold pins mark the places in the story, each with the name it had at the time, the name it has today, and its coordinates. Every age also records what was invented, which animals people lived and worked with, what they spoke, what they used for money, who held power, and a <b>moral ledger</b> that names the worst injustices of that age and its fairest societies, whoever they happened to be.</p>
 
       <div class="why">
         <div class="wt">Why it exists</div>
-        <p>Because reading history should not mean losing your place on the map. If you have ever read about a prophet, a battle or an empire and wondered <i>where exactly was that, what is it called today, and what on earth was happening everywhere else at the time</i> — that question is what this was built to answer. It assumes no background knowledge and no particular faith. Religious terms are explained in plain English with the original word in brackets, undated eras are left honestly undated rather than filled with invented years, and injustice is named wherever it occurred, by whoever committed it.</p>
+        <p>Because reading history should not mean losing your place on the map. If you have ever read about a prophet, a battle or an empire and found yourself wondering where exactly that was, what the place is called now, and what on earth was going on everywhere else at the time, then this was built for you. It assumes no background knowledge and no particular faith. Religious words are explained in plain English. Nothing before roughly 2000 BC is given a year, because the sources give the order of events and not the dates. Where the Islamic sources and the wider historical record disagree, this site follows the Islamic sources and tells you so rather than blurring it. And injustice is named wherever it happened, by whoever did it.</p>
       </div>
 
       <div class="stats">
-        <div><div class="n">82</div><div class="l">Entries</div></div>
+        <div><div class="n">94</div><div class="l">Entries</div></div>
         <div><div class="n">32</div><div class="l">Era maps</div></div>
-        <div><div class="n">13</div><div class="l">Era panels</div></div>
+        <div><div class="n">12</div><div class="l">Ages</div></div>
         <div><div class="n">3000 BC – 1945</div><div class="l">Mapped range</div></div>
       </div>
 

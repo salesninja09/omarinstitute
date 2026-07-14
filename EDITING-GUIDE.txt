@@ -1,0 +1,101 @@
+HOW TO CHANGE ANYTHING ON THE SITE
+Omar Institute, omarinstitute.org
+=================================
+
+You do not need to install anything, and you do not need to understand code.
+Every change is made in a web browser, on GitHub, and the live site updates
+itself about twenty seconds later.
+
+
+THE GOLDEN RULE
+---------------
+You can safely change anything BETWEEN "quotation marks".
+Do not delete the quotation marks themselves, the commas, or the { } brackets.
+
+  Safe:    "title": "The migration to Madinah"
+                     ^^^^^^^^^^^^^^^^^^^^^^^^  change these words freely
+
+  Broken:  "title": The migration to Madinah      <- quote marks gone
+  Broken:  "title": "The migration to Madinah"    <- comma at the end removed
+
+If you break something, GitHub keeps every old version. See UNDO at the bottom.
+
+
+WHERE EVERYTHING LIVES
+----------------------
+  data.js         Every word of the timeline. All 94 entries, all 12 eras.
+  index.html      The Omar Institute landing page: the banner, the projects list,
+                  the spotlight text.
+  timeline.html   The timeline page itself: the headline, the "how to use this"
+                  box, the button labels.
+  maps/           The 32 historical maps. You will probably never touch these.
+
+
+HOW TO MAKE A CHANGE (about two minutes)
+----------------------------------------
+1. Go to your repository on github.com.
+2. Click the file you want to change, for example data.js
+3. Click the pencil icon at the top right ("Edit this file").
+4. Use Ctrl+F (Cmd+F on a Mac) to find the words you want to change.
+5. Change them. Keep the quote marks and commas exactly where they are.
+6. Scroll to the bottom, type a short note like "fixed a typo in the Badr entry",
+   and click "Commit changes".
+7. Wait about twenty seconds. Refresh omarinstitute.org. Done.
+
+Vercel notices the change on GitHub by itself and republishes. You never need
+to log in to Vercel to update text.
+
+
+COMMON THINGS YOU MIGHT WANT TO DO
+----------------------------------
+
+CHANGE THE WORDS OF ONE ENTRY
+  Open data.js, search for the entry title, and edit the "story" text.
+
+CHANGE THE BANNER ON THE FRONT PAGE
+  Open index.html, search for "biggest questions", edit the text between the
+  <blockquote> tags.
+
+CHANGE A BUTTON LABEL
+  Open timeline.html, search for the words on the button, change them.
+
+CHANGE THE "HOW TO USE THIS TIMELINE" BOX
+  Open timeline.html, search for "How to use this timeline".
+
+ADD A NEW ENTRY TO THE TIMELINE
+  Open data.js. Copy an existing entry from its opening { to its closing },
+  paste it directly underneath, add a comma between them, then change the
+  values. The important ones:
+     "side"  "t" for the gold rail, "w" for the silver rail
+     "sort"  the year. This decides where it appears and what it pairs with.
+     "map"   must match a file in the maps folder, e.g. "1200"
+     "zone"  "z0" to "z11"
+
+CHANGE WHICH TWO ENTRIES SIT SIDE BY SIDE
+  The timeline pairs entries automatically when they are close in time.
+  A few important pairs are set by hand. Open timeline.html and search for
+  PAIR_HINTS. Each line reads: entry id, then a few words from the title of
+  the entry on the other rail it should face.
+
+CHANGE THE ERA NAMES OR ERA PANELS
+  Open data.js and search for "zones" (the twelve era names) or "panels"
+  (what people spoke, money, inventions, animals, and the moral ledger).
+
+
+UNDO A MISTAKE
+--------------
+1. On GitHub, click the file.
+2. Click "History" at the top right.
+3. Find the version from before your change and click it.
+4. Click the three dots, then "View file", then the pencil, then commit it back.
+
+Nothing you do is permanent, and nothing can be lost.
+
+
+IF THE SITE BREAKS AFTER AN EDIT
+--------------------------------
+It is almost always a missing quote mark or a missing comma in data.js.
+Open the file, look at the line you last changed, and compare it with the
+line above and below it. They should have exactly the same punctuation.
+
+© Omar Institute 2026

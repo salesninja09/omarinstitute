@@ -148,10 +148,22 @@ nav.jump button:hover,nav.jump button:focus-visible{color:var(--gold-soft);borde
 .np.right{text-align:right}
 
 /* ---------- footer ---------- */
+.src-group{margin-bottom:30px;max-width:820px}
+.src-group h3{font-family:var(--disp);font-weight:400;font-size:19px;color:var(--gold-soft);margin-bottom:6px}
+.src-lead{color:var(--dim);font-size:14px;font-style:italic;margin-bottom:14px}
+.src-item{color:var(--dim);font-size:14.5px;line-height:1.75;margin-bottom:12px;padding-left:14px;border-left:1px solid var(--line)}
+.src-item a{text-decoration:none}
+.src-item a:hover b{color:var(--gold)}
+.src-item b{color:var(--ivory);font-weight:normal}
+.src-note{max-width:820px;color:var(--dim);font-size:13.5px;line-height:1.75;padding:16px 18px;background:var(--ink);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:5px;margin-bottom:24px}
 footer{border-top:1px solid var(--line);margin-top:30px;padding:50px 20px 70px;background:var(--ink2)}
 .f-in{max-width:1060px;margin:0 auto}
 .f-in .sh{font-family:var(--ui);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
-.f-in ol{margin:0 0 26px 18px;color:var(--dim);font-size:14px;line-height:2}
+.srcgrp{margin-bottom:30px;max-width:820px}
+.srcgrp h4{font-family:var(--disp);font-weight:400;font-size:19px;color:var(--gold-soft);margin-bottom:8px}
+.srcgrp .gn{color:var(--dim);font-size:14px;font-style:italic;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.srcgrp .si{color:var(--dim);font-size:14.5px;line-height:1.75;margin-bottom:13px}
+.srcgrp .si a{white-space:nowrap}
 .f-in .note{color:var(--dim);font-size:13px;max-width:720px;line-height:1.7}
 
 @media (max-width:760px){
@@ -172,15 +184,15 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:50px 20px 70px;b
 
 <header>
   <a class="crumb" href="index.html">&larr; Omar Institute</a>
-  <div class="eyebrow">From the first humans to 1945 &nbsp;&middot;&nbsp; two rails, one story</div>
+  <div class="eyebrow">From the first people to 1945</div>
   <h1>The World <span class="amp">Through</span> Time</h1>
-  <p class="hero-quote">&ldquo;In their stories there is truly a lesson for people of understanding.&rdquo;</p>
+  <p class="hero-quote">&ldquo;There is a lesson in the stories of such people for those who understand.&rdquo;</p>
   <div class="hero-ref">Quran 12:111</div>
-  <p class="hero-sub">Two rails run side by side. On the gold rail: <b>the line of the prophets</b> — from the first humans, through Abraham, Moses and Jesus, to Muhammad (PBUH) and the empires that followed. On the silver rail: <b>the wider world</b> — Egypt, China, Greece, Rome, the Americas, and everyone else who was alive at the same moment. Open any entry to see the world map of that age: who ruled where, what each place was called then, and what it is called now.</p>
+  <p class="hero-sub">Two rails run side by side. The gold rail is <b>the Long Thread</b>: one continuous story, from the first people, through Abraham, Moses, Jesus and Muhammad, to the empires that grew out of them and the day the last caliph left on a train. The silver rail is <b>the Wider World</b>: everyone else who was alive at the same moment. Egypt and China, Athens and Rome, Baghdad and Cahokia, the Mongols and the Pacific navigators. Open any entry and you get the map of that exact age, and you can see what each place was called then and what it is called now.</p>
   <div class="legend">
-    <span><i class="dot-i"></i> The line of the prophets</span>
-    <span><i class="dot-w"></i> The wider world</span>
-    <span style="color:var(--gold-soft)">‖ Islamic dating (AH) begins at the migration to Madinah, 622 CE</span>
+    <span><i class="dot-i"></i> The Long Thread</span>
+    <span><i class="dot-w"></i> The Wider World</span>
+    <span style="color:var(--gold-soft)">&#8214; Islamic years (AH) begin at the migration to Madinah in 622</span>
   </div>
   <button class="howto-open" id="howtoOpen">How to use this timeline</button>
 </header>
@@ -192,14 +204,13 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:50px 20px 70px;b
       <button class="howto-x" id="howtoX" aria-label="Close">Got it &times;</button>
     </div>
     <div class="howto-grid">
-      <div><span class="n">1</span><b>Scroll the two rails.</b> Gold entries (right) follow the line of the prophets and the civilisations that grew from it. Silver entries (left) are the wider world. When they sit side by side, they were happening at the same time.</div>
-      <div><span class="n">2</span><b>Click any entry.</b> It opens the world map of that exact era — real borders, drawn from historical map data, not modern ones.</div>
-      <div><span class="n">3</span><b>Hover the map.</b> Any territory tells you who ruled it then. Gold pins are the places in that story, with their old name, their name today, and their coordinates.</div>
-      <div><span class="n">4</span><b>Open the panels.</b> Every era has its languages, money, daily life, politics, trade, wonders — and a Moral Ledger naming that age's worst injustices and its fairest societies, whoever they were.</div>
+      <div><span class="n">1</span><b>Scroll the two rails.</b> Gold entries on the right follow The Long Thread. Silver entries on the left follow The Wider World. When two entries sit side by side, those things were happening at the same time.</div>
+      <div><span class="n">2</span><b>Click any entry.</b> It opens the world map of that era, with the borders as they actually were, not as they are now.</div>
+      <div><span class="n">3</span><b>Hover the map.</b> Any territory will tell you who held it at that moment. Gold pins mark the places in the story, with the name it had then, the name it has now, and its coordinates.</div>
+      <div><span class="n">4</span><b>Open the panels.</b> Every era tells you what people spoke, what they used for money, what they invented, which animals lived alongside them, and a Moral Ledger naming that age's worst injustices and its fairest societies, whoever they were.</div>
     </div>
-    <p class="howto-foot">No background knowledge is assumed. Religious terms are explained in plain English, with the original word in brackets. Dates before about 2000 BC are left undated on purpose — the sources give the order of events, not the years, and this site does not invent them.</p>
-  </div>
-</section>
+    <p class="howto-foot">You need no background knowledge and no particular faith to read this. Religious and historical terms are explained in ordinary English with the original word in brackets. Eras that our sources do not date are left undated rather than filled with invented years. The Islamic sources lead on the gold rail, standard scholarship leads on the silver one, and where they disagree the disagreement is stated rather than hidden.</p>
+  </section>
 <nav class="jump" id="jump" aria-label="Jump to era"></nav>
 
 <main class="tl" id="tl">
@@ -220,9 +231,9 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:50px 20px 70px;b
 
 <footer>
   <div class="f-in">
-    <div class="sh">Sources — every claim on this site traces here</div>
-    <ol id="srcList"></ol>
-    <p class="note"><b>Honesty notes.</b> Undated eras are shown undated — no years are invented for the early prophets. Ancient borders are approximate by nature; this site softens them deliberately rather than pretending precision. Population figures are scholarly estimates and shown as such. The Moral Ledger names each age's gravest injustices and its most equitable societies, whoever they were. Map polygons: Historical Basemaps (github.com/aourednik/historical-basemaps), simplified for the web.</p>
+    <div class="sh">Where all of this comes from</div>
+    <div id="srcList"></div>
+    <p class="note">Maps are drawn from the Historical Basemaps dataset and simplified for the web. Ancient borders were zones rather than lines, and no map of them can be exact.</p>
     <p class="copy">&copy; Omar Institute 2026</p>
   </div>
 </footer>
@@ -235,7 +246,8 @@ var D = window.DATA;
 var MS = D.milestones.slice().sort(function(a,b){return a.sort-b.sort;});
 var byId = {}; MS.forEach(function(m,ix){ byId[m.id]=m; m._ix=ix; });
 
-function zoneOf(m){ if(m.sort<=-90000) return 0; if(m.sort<570) return 1; return 2; }
+var ZIX={}; D.zones.forEach(function(z,i){ ZIX[z.id]=i; });
+function zoneOf(m){ return ZIX[m.zone]!==undefined ? ZIX[m.zone] : 0; }
 function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
 /* ---------- pair contemporaneous entries into parallel rows ---------- */
@@ -259,7 +271,7 @@ var PAIR_HINTS = {
   '46':'First World War'      /* the caliphate's last war */
 };
 function buildRows(list){
-  var I = list.filter(function(m){return m.side==='i';});
+  var I = list.filter(function(m){return m.side==='t';});
   var W = list.filter(function(m){return m.side==='w';});
   var takenI={}, takenW={}, pairs=[];
 
@@ -295,7 +307,7 @@ function buildRows(list){
 }
 function cardHTML(m){
   var teaser = m.story.split('. ')[0]; if(teaser.length>140) teaser = teaser.slice(0,137)+'…';
-  return '<span class="node '+(m.side==='i'?'node-i':'node-w')+'" aria-hidden="true"></span>'+
+  return '<span class="node '+(m.side==='t'?'node-i':'node-w')+'" aria-hidden="true"></span>'+
     '<button class="card" data-id="'+m.id+'" aria-label="Open: '+esc(m.title)+'">'+
       '<div class="k">'+esc(m.num)+' · '+esc(m.yearLabel)+(m.ah?' <span class="ah">· '+esc(m.ah)+'</span>':'')+'</div>'+
       '<h3>'+esc(m.title)+'</h3><p>'+esc(teaser)+'.</p>'+
@@ -311,8 +323,8 @@ buildRows(MS).forEach(function(r){
   var z = zoneOf(lead);
   if(z !== lastZone){
     var zd = D.zones[z], zEl = document.createElement('div');
-    zEl.className='zone'; zEl.id='zone'+z;
-    zEl.innerHTML='<h2>'+esc(zd.label)+'</h2><p>'+esc(zd.sub)+'</p>';
+    zEl.className='zone'; zEl.id=lead.zone;
+    zEl.innerHTML='<h2>'+esc(zd.name)+'</h2><p>'+esc(zd.sub)+'</p>';
     tl.appendChild(zEl); lastZone=z;
   }
   var row=document.createElement('div');
@@ -356,7 +368,7 @@ document.getElementById('howtoOpen').onclick=function(){ setHowto(true); howto.s
 
 /* jump nav */
 var jump=document.getElementById('jump');
-[['zone0','First prophets'],['zone1','Ancient world'],['20','622 · Migration'],['28','Conquests'],['35','Golden age'],['40','1453'],['45','Colonial era'],['47','1924'],['49','1945']].forEach(function(j){
+[['zone1','First cities'],['zone3','Pharaohs'],['zone4','Iron & prophets'],['zone5','Thinkers'],['zone6','Rome & Han'],['zone7','Arabian century'],['zone8','Golden age'],['zone9','Mongols'],['zone10','Gunpowder'],['zone11','Machines'],['zone12','World wars']].forEach(function(j){
   var b=document.createElement('button'); b.textContent=j[1];
   b.onclick=function(){
     var el=document.getElementById(j[0])||document.querySelector('[data-id="'+j[0]+'"]');
@@ -365,13 +377,23 @@ var jump=document.getElementById('jump');
   jump.appendChild(b);
 });
 
-/* sources footer */
+/* sources footer: historical sources first, then modern scholarship, written as prose */
 var sl=document.getElementById('srcList');
-D.sources.forEach(function(s){
-  var li=document.createElement('li');
-  li.innerHTML=esc(s[0])+' — <a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[1]).replace(/^https?:\/\//,'')+'</a>';
-  sl.appendChild(li);
-});
+function srcBlock(heading, lead, list){
+  var h='<div class="src-group"><h3>'+esc(heading)+'</h3><p class="src-lead">'+esc(lead)+'</p>';
+  list.forEach(function(x){
+    h+='<p class="src-item"><a href="'+esc(x[2])+'" target="_blank" rel="noopener"><b>'+esc(x[0])+'</b></a> '+esc(x[1])+'</p>';
+  });
+  return h+'</div>';
+}
+sl.innerHTML =
+  srcBlock('The historical sources',
+           'These are the primary texts. They were written by people who were there, or who worked from those who were, and they are the foundation of The Long Thread.',
+           D.sources.historical) +
+  srcBlock('The scholarship',
+           'These are modern works, used for The Wider World, for the population figures, and for the maps.',
+           D.sources.modern) +
+  '<p class="src-note">'+esc(D.sources.note)+'</p>';
 
 /* ---------- map engine (plain SVG, equirectangular) ---------- */
 var MAPW=1000, MAPH=500;
@@ -460,15 +482,25 @@ function renderMap(container, m){
       var p=document.createElementNS(NS,'path');
       p.setAttribute('d',featurePath(f.geometry));
       var props=f.properties||{};
-      var name=props.NAME||props.SUBJECTO||'Unrecorded / tribal region';
+      var named=!!(props.NAME||props.SUBJECTO);
+      var name=props.NAME||props.SUBJECTO||'';
       var subj=props.SUBJECTO;
-      p.setAttribute('fill',FILLS[hashStr(subj||name)%FILLS.length]);
+      if(name) name=name.replace(/\?/g,'a');
+      p.setAttribute('fill', named ? FILLS[hashStr(subj||name)%FILLS.length] : '#1b2540');
       p.setAttribute('stroke','#0b1223'); p.setAttribute('stroke-width','.45');
       p.setAttribute('fill-rule','evenodd');
       p.style.cursor='crosshair';
       p.addEventListener('mousemove',function(ev){
-        var h='<div class="tt">Ruled at this time by</div><b>'+esc(name)+'</b>';
-        if(subj && subj!==name) h+='<br><span style="color:var(--dim)">under '+esc(subj)+'</span>';
+        var h;
+        if(!named){
+          h='<div class="tt">This land, at this time</div><b>No recorded state here</b>'+
+            '<br><span style="color:var(--dim)">People lived here, but the map data records no state or kingdom. Often that means farmers, herders or hunters living without a central ruler.</span>';
+        } else if(subj && subj!==name){
+          h='<div class="tt">This land, at this time</div><b>'+esc(name)+'</b>'+
+            '<br><span style="color:var(--dim)">ruled by '+esc(subj)+'</span>';
+        } else {
+          h='<div class="tt">This land, at this time</div><b>'+esc(name)+'</b>';
+        }
         var r=svg.getBoundingClientRect(), vb=svg.getAttribute('viewBox').split(' ').map(Number);
         var ux=vb[0]+(ev.clientX-r.left)/r.width*vb[2], uy=vb[1]+(ev.clientY-r.top)/r.height*vb[3];
         var lon=ux/MAPW*360-180, lat=90-uy/MAPH*180;
@@ -528,16 +560,25 @@ function renderMap(container, m){
 
 /* ---------- overlay ---------- */
 var ov=document.getElementById('ov'), wrap=document.getElementById('ovWrap');
-var PANEL_FIELDS=[['languages','What people spoke','✎'],['money','What money looked like','◉'],['society','How people lived','⌂'],['politics','Who held power','♜'],['economy','Trade and the economy','⇄'],['moral','The moral ledger — the worst and the fairest','☽'],['wonders','Wonders and breakthroughs','✶']];
+var PANEL_FIELDS=[
+  ['languages','What people spoke','✎'],
+  ['money','What money looked like','◉'],
+  ['inventions','What was invented','⚙'],
+  ['animals','The animals of this age','☘'],
+  ['society','How people lived','⌂'],
+  ['politics','Who held power','♜'],
+  ['economy','Trade and the economy','⇄'],
+  ['moral','The moral ledger: the worst, and the fairest','☽'],
+  ['wonders','Wonders','✶']];
 var lastFocus=null;
 function openM(id){
   var m=byId[id]; if(!m) return;
   lastFocus=document.activeElement;
   document.getElementById('ovT').textContent=m.title;
   document.getElementById('ovY').textContent=m.yearLabel+(m.ah?' · '+m.ah:'');
-  var side = m.side==='i' ? 'The line of the prophets' : 'The wider world';
+  var side = D.rails[m.side].name;
   var h='';
-  h+='<div class="ov-head"><div class="k" style="color:'+(m.side==='i'?'var(--gold)':'var(--silver)')+'">'+esc(m.num)+' · '+esc(side)+' · '+esc(m.yearLabel)+(m.ah?' · '+esc(m.ah):'')+'</div>';
+  h+='<div class="ov-head"><div class="k" style="color:'+(m.side==='t'?'var(--gold)':'var(--silver)')+'">'+esc(m.num)+' · '+esc(side)+' · '+esc(m.yearLabel)+(m.ah?' · '+esc(m.ah):'')+'</div>';
   h+='<h2>'+esc(m.title)+'</h2></div>';
   h+='<div class="map-note"><span>The world map of this era'+(m.dated?'':' — <b>undated on purpose: the order is known, the years are not</b>')+'</span><span>Hover any land: <b>who ruled it then</b> · gold pins: <b>the places in this story</b></span></div>';
   h+='<div class="map-box" id="mapBox"></div>';
@@ -548,18 +589,21 @@ function openM(id){
              '<div class="pc">'+fmtCoord(p[2],p[3])+'</div></div>';
     }).join('')+'</div>';
   }
-  h+='<div class="sec"><div class="sh">'+(m.side==='i'?'The story — from Islamic sources':'The story')+'</div><div class="body">'+esc(m.story)+'</div>';
+  h+='<div class="sec"><div class="sh">'+(m.side==='t'?'The story, as the Islamic sources tell it':'The story')+'</div><div class="body">'+esc(m.story)+'</div>';
   if(m.pop) h+='<div class="pop">Population · '+esc(m.pop)+'</div>';
   h+='</div>';
-  if(m.meanwhile){
-    h+='<div class="sec"><div class="sh">'+(m.side==='i'?'Meanwhile, elsewhere in the world':'On the other rail')+'</div><div class="mw">'+esc(m.meanwhile)+'</div></div>';
+  if(m.inv){
+    h+='<div class="sec"><div class="sh">What this age invented</div><div class="mw" style="border-left:3px solid var(--gold)">'+esc(m.inv)+'</div></div>';
   }
-  var pan = m.panel && D.panels[m.panel];
+  if(m.meanwhile){
+    h+='<div class="sec"><div class="sh">'+(m.side==='t'?'Meanwhile, elsewhere in the world':'On the other rail')+'</div><div class="mw">'+esc(m.meanwhile)+'</div></div>';
+  }
+  var pan = m.zone && D.panels[m.zone];
   if(pan){
-    h+='<div class="sec panel"><div class="sh">Life in this age — '+esc(pan.title)+'</div>';
+    h+='<div class="sec panel"><div class="sh">Life in this age: '+esc(pan.title)+'</div>';
     PANEL_FIELDS.forEach(function(f,ix){
       if(!pan[f[0]]) return;
-      h+='<details'+(ix===5?' open':'')+'><summary><span class="ic">'+f[2]+'</span>'+esc(f[1])+'</summary><p>'+esc(pan[f[0]])+'</p></details>';
+      h+='<details'+(ix===7?' open':'')+'><summary><span class="ic">'+f[2]+'</span>'+esc(f[1])+'</summary><p>'+esc(pan[f[0]])+'</p></details>';
     });
     h+='</div>';
   }
