@@ -57,14 +57,22 @@ window.DATA = {
    "lo": -3500,
    "hi": -2000,
    "name": "The First Cities",
-   "sub": "Writing, the wheel, the plough. Sumer, Egypt and the Indus build the first cities on earth."
+   "sub": "Writing, the wheel, the plough. Sumer, Egypt and the Indus build the first cities on earth.",
+   "note": "The prophets between Noah and Abraham are not dated by our sources, so their stories sit in the age before this one."
   },
   {
    "id": "z2",
    "lo": -2000,
+   "hi": -1500,
+   "name": "The First Kingdoms",
+   "sub": "Law is written down for the first time. Bronze, donkey caravans and god-kings. Still no coins anywhere on earth, and still no alphabet."
+  },
+  {
+   "id": "z2b",
+   "lo": -1500,
    "hi": -1200,
    "name": "Chariots and Pharaohs",
-   "sub": "Bronze, chariots and god-kings. The great powers of the ancient Near East trade, marry and fight."
+   "sub": "The late Bronze Age. A club of great powers writes to each other in Akkadian, fights with chariots, and then collapses almost all at once."
   },
   {
    "id": "z3",
@@ -156,16 +164,16 @@ window.DATA = {
    "wonders": "The Great Pyramid of Giza, built about 2560 BC, still the heaviest building ever raised, and the tallest thing humans made until a cathedral spire in 1311. The drains and street grids of Mohenjo-daro, which no European city would match for four thousand years."
   },
   "z2": {
-   "title": "Chariots and Pharaohs (about 2000 to 1200 BC)",
-   "languages": "Akkadian is the language of international diplomacy. Kings of Egypt, Turkey and Iraq write to one another in it, and their letters survive. Egyptian hieroglyphs, Hittite, and early Chinese on oracle bones. In the mines of Sinai, Semitic workers scratch out the first alphabet, and nearly every alphabet on earth today descends from it.",
-   "money": "Still no coins. Egypt values goods against a copper weight called the deben. Wages are paid in bread, beer and grain. A tomb worker is paid in loaves.",
-   "society": "Palace economies run on forced labour. The Children of Israel are enslaved in Egypt, which is the heart of the story of Moses. Scribes are a small, powerful class because reading is rare. Egyptian women can own property and go to court, which was unusual for the age.",
-   "politics": "A club of great powers, Egypt, the Hittites, Babylon, Assyria and Mycenae, who exchange gifts, princesses and threats. Pharaoh is not merely a king but a god, and says so.",
-   "economy": "Ships carry copper, tin and glass across the Mediterranean. One wreck found off Turkey held ten tons of copper. Chariots make war fast and expensive, and only rich states can afford them.",
-   "inventions": "The chariot, the alphabet, glassmaking, the shaduf for lifting water, the composite bow, the water clock, and iron smelting, which begins in Turkey and will eventually make bronze obsolete.",
-   "animals": "The horse changes war forever, harnessed to chariots rather than ridden. Camels are being domesticated in Arabia and will open the desert to trade. Egyptians keep cats, monkeys, geese and hunting dogs, and mummify them.",
-   "moral": "Worst: state slavery, and a Pharaoh who ordered infant boys killed. Fairest: the Kadesh treaty of about 1274 BC between Egypt and the Hittites, the oldest surviving peace treaty in the world, which includes extradition and a promise of mutual defence. Also the tomb workers of Deir el-Medina, who in about 1157 BC downed tools over late wages and won. It is the first recorded strike in history.",
-   "wonders": "Abu Simbel, carved into a cliff. The Exodus, remembered by three faiths ever since. And the alphabet, invented by labourers, not kings."
+   "title": "The First Kingdoms (about 2000 to 1500 BC)",
+   "languages": "Sumerian survives only as a language of religion, the way Latin later would. Akkadian is what people actually speak and write in Iraq. Egyptian hieroglyphs along the Nile. The Indus script, which nobody has ever read. There is no alphabet anywhere in the world yet.",
+   "money": "No coins. In Iraq, silver is weighed out on scales, and the shekel is a unit of weight rather than a coin. Barley works as small change. A merchant's word and a clay tablet do the rest.",
+   "society": "Cities, temples and palaces, with slavery running underneath all of them and nobody questioning it. Kings say a god put them where they are, which makes disobedience a kind of blasphemy. This is exactly the claim Abraham refuses.",
+   "politics": "Territorial kingdoms are swallowing the older city-states. Babylon rises under Hammurabi. Egypt's Middle Kingdom is strong and centralised, and will later fall to foreign kings in the Delta, which is the Egypt Joseph arrives in.",
+   "economy": "Donkey caravans carry tin and cloth between Iraq and Turkey, and we have the merchants' actual letters, complaints about late payment included. Ships trade between the Indus and the Gulf. Grain stored in a royal warehouse is the difference between a city that survives a bad year and one that does not, which is the whole point of the story of Joseph.",
+   "inventions": "The written law code. Standardised weights and measures. Bronze tools and weapons. The potter's wheel and the horse-drawn cart. Mathematics good enough to solve quadratic equations, and astronomy good enough to predict eclipses.",
+   "animals": "The donkey is the lorry of the ancient world and carries the long-distance trade. Oxen pull the plough. Sheep and goats are wealth on legs, which is why they are what a nomad counts. The horse is known but is not yet the animal of war. Cats have moved into Egyptian granaries and made themselves indispensable.",
+   "moral": "Worst: slavery, debt bondage that could take a man's children, and kings who claimed divine authority. Fairest: Hammurabi's code, published in public, saying that the strong should not harm the weak. Its justice was graded by class and it would not satisfy us. But it was written down, it applied to everyone, and anyone could go and read it, and that is where law begins.",
+   "wonders": "The ziggurat of Ur. The law pillar of Hammurabi, which you can still go and look at in Paris. And the drains of Mohenjo-daro, still working better than those of most cities four thousand years later."
   },
   "z3": {
    "title": "Iron, Kings and Prophets (about 1200 to 550 BC)",
@@ -219,7 +227,7 @@ window.DATA = {
    "title": "Caliphs, Vikings and the House of Wisdom (661 to 1200)",
    "languages": "Arabic becomes the language of science and law from Spain to India, in the way English is today. Persian is reborn as a literary language. Latin survives in European churches. Swahili begins on the East African coast as a trading speech.",
    "money": "The gold dinar and the silver dirham are the trusted money of the world, and archaeologists dig them out of Viking graves in Sweden. A merchant can deposit money in Baghdad and draw it in Cordoba using a written note called a sakk, which is where the English word cheque comes from.",
-   "society": "Baghdad and Cordoba are cities of Arabs, Persians, Turks, Jews and Christians, where a scholar can make a living. Charitable endowments pay for hospitals, schools and drinking fountains. Slavery continues, and the enslaved African labourers of southern Iraq revolted for fourteen years, which is a stain this site does not hide.",
+   "society": "Baghdad and Cordoba are cities of Arabs, Persians, Turks, Jews and Christians, where a scholar can make a living. Charitable endowments pay for hospitals, schools and drinking fountains.",
    "politics": "One religion, many states. There is a caliph in Baghdad, a rival in Cairo and another in Cordoba, and yet a single body of law and a single pilgrimage hold the whole thing together. In Europe, kings are weak and land is everything.",
    "economy": "Rice, sugar, cotton, citrus and hard wheat spread west across the Muslim world along with the irrigation manuals to grow them. Ships sail directly from Basra to China. Vikings row down the Volga to sell furs and slaves for Baghdad's silver.",
    "inventions": "This is the great age of Muslim science and it deserves naming properly. Al-Khwarizmi writes the book that gives us the word algebra, and his own name, Latinised, gives us the word algorithm. Ibn al-Haytham works out how vision actually happens and insists that a claim must be tested by experiment, which makes him a founder of the scientific method. Al-Zahrawi writes the surgical textbook Europe will use for five hundred years and invents instruments still recognisable today. Ibn Sina's Canon of Medicine is taught in European universities into the 1600s. Al-Biruni measures the radius of the earth from a mountain in Pakistan and gets it right to within one per cent. The astrolabe is perfected into a pocket computer for the stars. Paper arrives from China in 751 and mills open in Baghdad, which makes books cheap and everything else possible. Meanwhile in China: printing with movable type, the compass, gunpowder and paper money.",
@@ -274,6 +282,18 @@ window.DATA = {
    "animals": "Eight million horses die in the First World War. Dogs, pigeons and mules serve in both. And in 1936 the last thylacine dies in a Tasmanian zoo, filmed, which is one of the few extinctions we can actually watch.",
    "moral": "Worst: the Holocaust. Six million Jews were murdered in an industrial system built for the purpose, and it is the moral floor of this entire timeline. Alongside it: the Second World War's tens of millions of dead, the Bengal famine of 1943, and the Armenian deportations and massacres of 1915. Fairest, and only just emerging: the United Nations Charter of 1945, and the Universal Declaration of Human Rights that follows in 1948, drafted with Lebanese, Egyptian and Chinese voices in the room and not only European ones.",
    "wonders": "Penicillin. The computer. And the bomb, which is where this timeline stops, because after 1945 humanity is the first species that can end itself."
+  },
+  "z2b": {
+   "title": "Chariots and Pharaohs (about 1500 to 1200 BC)",
+   "languages": "Akkadian is the language of international diplomacy, and the great kings write to each other in it. We have the letters. Egyptian, Hittite, Mycenaean Greek, and the first Chinese writing on oracle bones. And in the turquoise mines of Sinai, Semitic workers scratch out the first alphabet in history, from which nearly every alphabet on earth descends, including the one you are reading.",
+   "money": "Still no coins. Egypt values things against a copper weight called the deben. Workers are paid in bread, beer and grain. A tomb painter is paid in loaves.",
+   "society": "Palace economies running on forced labour. This is the Egypt in which the Children of Israel are enslaved, and the world in which Moses is born under a death sentence. Scribes are powerful because almost nobody else can read. Egyptian women can own property and bring cases to court, which was unusual anywhere.",
+   "politics": "A club of great powers, Egypt, the Hittites, Babylon, Assyria and Mycenae, exchanging gifts, princesses and threats. Pharaoh is not merely a king, he is a god, and he says so out loud, which is precisely what Moses is sent to contradict.",
+   "economy": "Ships carry copper, tin and glass across the Mediterranean, and one wreck found off the Turkish coast held ten tons of copper. Chariots are the expensive weapon of the age, and only a rich state can field them, which is why Pharaoh's chariots matter in the story of the sea crossing.",
+   "inventions": "The chariot. The alphabet. Glassmaking. Iron smelting, beginning in Turkey, which will eventually make all of this bronze obsolete. The shaduf for lifting water, still used on the Nile in the twentieth century.",
+   "animals": "The horse, harnessed to a chariot rather than ridden, changes war completely. Camels are being domesticated in Arabia and will open the desert. Egyptians keep cats, dogs, monkeys and geese, and mummify them so as to have them in the next life too.",
+   "moral": "Worst: state slavery, and a Pharaoh who ordered the baby boys of a whole people killed. Fairest: the Kadesh treaty of about 1274 BC between Egypt and the Hittites, which is the oldest surviving peace treaty in the world and includes extradition and mutual defence. And the workers of Deir el-Medina, who in about 1157 BC stopped work because their wages were late and won, which is the first recorded strike in history.",
+   "wonders": "Abu Simbel, cut into a cliff. The Exodus, remembered by three faiths for three thousand years. And an alphabet invented by labourers rather than kings."
   }
  },
  "milestones": [
@@ -295,18 +315,32 @@ window.DATA = {
      39.83
     ],
     [
-     "Where they met again, by tradition",
+     "Where Adam came down, by report: Sarandib",
+     "Adam's Peak, Sri Lanka",
+     6.81,
+     80.5
+    ],
+    [
+     "Where Eve came down, by report",
+     "Jeddah, Saudi Arabia",
+     21.49,
+     39.19
+    ],
+    [
+     "Where they found each other again, by report",
      "Arafat, outside Makkah",
      21.35,
      39.98
     ]
    ],
-   "story": "God created the first man, taught him the names of all things, and told the angels to bow to him. One refused out of pride, and that refusal begins the long argument that runs through the rest of this timeline. Adam and Eve lived in the Garden, were tricked, ate what they had been told not to eat, admitted they were wrong, and were sent down to earth to begin ordinary human life. They were given a promise on the way out: guidance would come, and whoever followed it would have nothing to fear. Their two sons quarrelled, and one killed the other. That was the first murder, and it happened in the first family.",
+   "story": "God created the first man, taught him the names of all things, and told the angels to bow to him. One refused out of pride, and that refusal begins the long argument that runs through the rest of this timeline. Adam and Eve lived in the Garden, were tricked, ate what they had been told not to eat, admitted they were wrong, and were sent down to earth to begin ordinary human life. They were given a promise on the way out: guidance would come, and whoever followed it would have nothing to fear. Their two sons quarrelled, and one killed the other. That was the first murder, and it happened in the first family. Where on earth they came down is not stated in the Quran. Early narrators, quoted by Ibn Kathir and al-Tabari, report that Adam descended at Sarandib, the island we now call Sri Lanka, that Eve came down near Jeddah, and that the two found each other again at Arafat outside Makkah. These are reports and not certainties,. They are worth knowing anyway. The mountain in Sri Lanka is still called Adam's Peak, and the hollow at its summit is honoured by Muslims as Adam's footprint, by Buddhists as the Buddha's, by Hindus as Shiva's and by some Christians as St Thomas's. One mountain, four faiths. The island's old name, Serendib, is where the English word serendipity comes from.",
    "meanwhile": "Nothing, because this is where the human story starts. The map shows an earth without borders, because there were none.",
    "pop": "The first human beings.",
    "src": "Quran 2:30-39, 7:11-25, 20:115-123, 5:27-31, 3:96. Ibn Kathir, Stories of the Prophets. Al-Tabari, volume 1.",
    "inv": null,
-   "zone": "z0"
+   "zone": "z0",
+   "shared": "Adam and Eve are the first man and woman in the Jewish, Christian and Muslim scriptures alike. All three describe the same shape of events: a first couple, a garden, a command, and the life on earth that followed.",
+   "nomap": true
   },
   {
    "id": "2",
@@ -337,7 +371,8 @@ window.DATA = {
    "pop": "Perhaps five to ten million people alive, though nobody can be sure.",
    "src": "Quran 19:56-57, 21:85. Ibn Kathir, Stories of the Prophets.",
    "inv": null,
-   "zone": "z0"
+   "zone": "z0",
+   "nomap": true
   },
   {
    "id": "3",
@@ -368,7 +403,9 @@ window.DATA = {
    "pop": null,
    "src": "Quran 71, 11:25-49, 29:14, 37:75-82. Ibn Kathir, Stories of the Prophets. Al-Tabari, volume 1.",
    "inv": null,
-   "zone": "z0"
+   "zone": "z0",
+   "shared": "The flood is one of the most widely shared stories on earth. The Torah and the Bible tell it as the story of Noah, and older Mesopotamian tablets tell their own version centuries before either. All agree on the core: human corruption, a warning, a righteous man, an ark, and a new beginning.",
+   "nomap": true
   },
   {
    "id": "4",
@@ -399,7 +436,8 @@ window.DATA = {
    "pop": null,
    "src": "Quran 7:65-72, 46:21-26, 69:6-8, 89:6-8. Ibn Kathir, Stories of the Prophets.",
    "inv": null,
-   "zone": "z0"
+   "zone": "z0",
+   "nomap": true
   },
   {
    "id": "5",
@@ -424,7 +462,9 @@ window.DATA = {
    "pop": null,
    "src": "Quran 7:73-79, 11:61-68, 91:11-15. Ibn Kathir, Stories of the Prophets. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z0"
+   "zone": "z0",
+   "ground": "The homes of the Thamud are still there to be walked through. They cut them straight into the faces of pink sandstone cliffs, whole rooms with smoothed walls and carved doorways, in a dry valley where the wells were everything. That is why the sharing of one well with one camel was the test that broke them.",
+   "nomap": true
   },
   {
    "id": "6",
@@ -479,7 +519,9 @@ window.DATA = {
    "pop": "About 27 million people alive. Egypt holds a million or so.",
    "src": "Quran 6:74-83, 21:51-70, 2:124-132, 2:258, 37:99-113, 14:35-41. Ibn Kathir, Stories of the Prophets. Al-Tabari, volume 2. McEvedy and Jones.",
    "inv": null,
-   "zone": "z2"
+   "zone": "z2",
+   "ground": "Ur, where he is said to have been born, was a city of mud-brick houses packed along narrow lanes, dominated by a stepped temple-tower you could see from the fields. People wrote on wet clay with a cut reed, banked their silver by weight with the temple, and ate barley bread and dates and drank a thick barley beer through a straw to avoid the husks.",
+   "shared": "Abraham is the shared father of the Jewish, Christian and Muslim faiths, which is why the three are together called the Abrahamic religions. All three remember his birth in Mesopotamia, his rejection of idols, his migration to Canaan, and his covenant with God."
   },
   {
    "id": "7",
@@ -505,12 +547,13 @@ window.DATA = {
      35.0
     ]
    ],
-   "story": "Abraham left his wife Hagar and their baby son in an empty valley with almost no water, because he had been told to. She ran between two hills looking for help, seven times, and a spring came up at the child's feet. A passing tribe asked to settle by the water, and that is how Makkah began, as a well with people around it. Every pilgrim since has walked those same two hills. Ishmael grew up to help his father build the Kaaba, and the Arabs of the north descend from him, which is the line that eventually reaches Muhammad. Isaac, born to Abraham in old age, carried the line that produced the prophets of Israel.",
+   "story": "Abraham left his wife Hagar and their baby son in an empty valley with almost no water, because he had been told to. She ran between two hills, Safa and Marwah, looking for help, seven times, and a spring came up at the child's feet. It is called Zamzam and it still runs today. A passing tribe, the Jurhum, asked her permission to settle by the water, and that is how Makkah began, as a well with people around it. Every pilgrim since has walked those same two hills, which is what the walk called Sa'i is. Ishmael grew up to help his father build the Kaaba, and the Arabs of the north descend from him, which is the line that eventually reaches Muhammad. Isaac, born to Abraham in old age, carried the line that produced the prophets of Israel.",
    "meanwhile": "Hammurabi is about to publish his law code in Babylon. Egypt is drifting towards a period of foreign rule in the Delta. The Indus cities are beginning their slow, unexplained decline.",
    "pop": "About 27 to 35 million people alive.",
    "src": "Quran 2:125-129, 37:100-113, 19:54-55. Sahih al-Bukhari records the story of the spring. Ibn Kathir, Stories of the Prophets.",
    "inv": null,
-   "zone": "z2"
+   "zone": "z2",
+   "shared": "Both sons are honoured across the traditions. The story of Hagar and the child left by the spring, which every pilgrim to Makkah re-enacts, is carried in Islamic tradition and in the Book of Genesis alike."
   },
   {
    "id": "8",
@@ -541,7 +584,9 @@ window.DATA = {
    "pop": "About 30 to 40 million people alive. Egypt holds around two million.",
    "src": "Quran, chapter 12 entire. Ibn Kathir, Stories of the Prophets. Al-Tabari, volume 2.",
    "inv": null,
-   "zone": "z2"
+   "zone": "z2",
+   "ground": "Egypt ran on the flood. Every summer the Nile rose, dropped black mud on the fields, and fell again, and the whole calendar and tax system was built on measuring exactly how high it came. A low flood meant famine, a high one meant disaster, and the man who could store seven good harvests against seven bad ones held the country in his hand. Grain was counted, sealed and guarded in state warehouses, which is the machinery the story of Joseph turns on.",
+   "shared": "The story of Joseph is told at length in both the Quran and the Book of Genesis, and the two run remarkably close: the favoured son, the jealous brothers, the pit, the sale into Egypt, the false accusation, the prison, the reading of the king's dream, the rise over the grain, and the forgiveness of the brothers at the end."
   },
   {
    "id": "9",
@@ -578,7 +623,7 @@ window.DATA = {
    "pop": "About 40 million people alive.",
    "src": "Quran 38:41-44, 21:83-85, 7:85-93, 11:84-95. Ibn Kathir, Stories of the Prophets.",
    "inv": null,
-   "zone": "z2"
+   "zone": "z2b"
   },
   {
    "id": "10",
@@ -616,12 +661,14 @@ window.DATA = {
      32.6
     ]
    ],
-   "story": "Pharaoh ordered the baby boys of an enslaved people killed. One mother put her son in a basket on the river, and Pharaoh's own household pulled him out and raised him in the palace. He grew up, killed a man in a fight, fled, and spent ten years as a shepherd. Then a voice spoke to him from a burning bush and sent him back to the most powerful man on earth with a demand: let these people go. Pharaoh's magicians were beaten at their own trade and believed on the spot. The plagues came. The people left, the sea opened, and the army that chased them drowned. The Quran says Pharaoh's body was preserved as a sign for those who came after, which is an interesting line to read in a museum full of mummies. Moses is mentioned more often in the Quran than any other prophet. The Quran never names the Pharaoh, and historians still argue about who he was.",
+   "story": "Pharaoh ordered the baby boys of an enslaved people killed. One mother put her son in a basket on the river, and Pharaoh's own household pulled him out and raised him in the palace. He grew up, killed a man in a fight, fled, and spent ten years as a shepherd. Then a voice spoke to him from a burning bush and sent him back to the most powerful man on earth with a demand: let these people go. Pharaoh's magicians were beaten at their own trade and believed on the spot. The plagues came. The people left, the sea opened, and the army that chased them drowned. The Quran says Pharaoh's body was preserved as a sign for those who came after, which is an interesting line to read in a museum full of mummies. Two other stories from his life are worth knowing. Qarun was a fabulously rich man among his own people who said his wealth was the product of his own cleverness, and the earth swallowed him and his treasure. And Moses travelled with a mysterious teacher, called al-Khidr in tradition, who did three things that looked outrageous, and explained at the end that each had prevented a worse harm that Moses could not see. It is the Quran's great lesson in humility about knowledge. Moses is mentioned more often in the Quran than any other prophet. The Quran never names the Pharaoh, and historians still argue about who he was.",
    "meanwhile": "Egypt is at the height of its imperial power. The Hittites of Turkey have just signed the world's first surviving peace treaty with Egypt after fighting to a draw. Mycenaean Greece is thriving. Within a few decades the entire eastern Mediterranean system will collapse.",
    "pop": "About 40 to 50 million people alive. Egypt holds two to three million.",
    "src": "Quran 20:9-98, 28:3-46, 26:10-68, 10:75-92, 18:60-82. Ibn Kathir, Stories of the Prophets. Al-Tabari, volume 3.",
    "inv": null,
-   "zone": "z2"
+   "zone": "z2b",
+   "ground": "The Egypt Moses grew up in was the richest state on earth and it looked it: temples the size of small towns, painted columns, avenues of stone rams, and armies of workers moving stone on sledges over wetted sand. The people he was born among lived at the other end of it, making mud bricks to a daily quota, their tally marked by an overseer with a stick. The two worlds were a few miles and an unbridgeable gap apart.",
+   "shared": "Moses is the most important prophet in Judaism and a major one in Christianity and Islam, and the three scriptures agree on the arc of his life: the birth under a death sentence, the rescue from the river, the call at the burning bush, the confrontation with Pharaoh, the plagues, the escape through the sea, and the giving of the Law."
   },
   {
    "id": "11",
@@ -652,7 +699,9 @@ window.DATA = {
    "pop": "About 50 million people alive.",
    "src": "Quran 2:246-251, 21:78-82, 27:15-44, 34:10-16, 38:17-40. Ibn Kathir, Stories of the Prophets. Al-Tabari, volume 3.",
    "inv": null,
-   "zone": "z3"
+   "zone": "z3",
+   "ground": "Jerusalem in Solomon's day was a small hill town made suddenly grand. The Temple he built was not large by Egyptian standards, but it was lined with cedar shipped down the coast from Lebanon and overlaid with gold, and nothing in the region matched it. Traders came up the incense road from the south, which is the road the Queen of Sheba would have travelled, loaded with frankincense worth its weight in silver.",
+   "shared": "David and Solomon are kings and prophets in the Jewish and Christian scriptures as well as in the Quran. All three remember David as the shepherd who faced the giant and became king, and Solomon as the wise king who built the Temple in Jerusalem."
   },
   {
    "id": "12",
@@ -683,13 +732,14 @@ window.DATA = {
    "pop": "Between 60 and 80 million people alive. Nineveh's size in the Quran matches what archaeologists estimate.",
    "src": "Quran 37:123-148, 21:87-88, 10:98, 68:48-50. Ibn Kathir, Stories of the Prophets.",
    "inv": null,
-   "zone": "z3"
+   "zone": "z3",
+   "ground": "Nineveh was a real place and an enormous one: walls broad enough to drive a chariot along the top, a king's library of thirty thousand clay tablets, gardens watered by an aqueduct brought from the hills. To a man from a small country it would have seemed like the capital of the world, which is roughly what it was, and roughly why being sent to preach in it was so daunting."
   },
   {
    "id": "12b",
    "num": "12b",
    "side": "t",
-   "sort": -700,
+   "sort": -545,
    "dated": false,
    "yearLabel": "Undated",
    "ah": null,
@@ -708,7 +758,7 @@ window.DATA = {
    "pop": null,
    "src": "Quran 18:83-98, 31:12-19. Ibn Kathir, Stories of the Prophets and al-Bidayah wan-Nihayah.",
    "inv": null,
-   "zone": "z3"
+   "zone": "z4"
   },
   {
    "id": "13",
@@ -745,7 +795,9 @@ window.DATA = {
    "pop": "About 170 million people alive, though some estimates go much higher. Rome itself has around a million.",
    "src": "Quran 3:33-59, 19:2-36, 4:157-159, 5:110-118. Ibn Kathir, Stories of the Prophets.",
    "inv": null,
-   "zone": "z5"
+   "zone": "z5",
+   "ground": "Galilee, where Jesus preached, was a countryside of small farming villages, fishing boats on the lake, and synagogues where the local men argued the Law. Rome was present but at arm's length: a garrison, a tax collector, a road. People spoke Aramaic, kept the Sabbath, ate bread, olives, salted fish and figs, and owed a tax to a distant emperor whose coins carried his face and a claim to be divine, which to them was blasphemy in the palm of the hand.",
+   "shared": "Jesus is a central figure in both Christianity and Islam, and Mary is honoured in both, with a chapter of the Quran named after her. Both traditions affirm his birth to a virgin mother, his miracles by the power of God, and his role as the Messiah."
   },
   {
    "id": "14b",
@@ -833,12 +885,13 @@ window.DATA = {
      39.83
     ]
    ],
-   "story": "He was born into a respected but not wealthy family. His father died before he was born and his mother died when he was six, so he was raised first by his grandfather and then by an uncle. He worked as a shepherd, then as a trader, and he was so well known for keeping his word that the city called him the Trustworthy, which is a nickname worth having in a town that lived on contracts. At twenty-five he married Khadija, a businesswoman older than him who had employed him. At thirty-five he was asked to settle a dispute about which clan would lift the sacred black stone back into the wall of the Kaaba. He put it on a cloak and had all four clans lift a corner. That is the kind of man he was before anything else happened.",
+   "story": "He was born into a respected but not wealthy family. His father died before he was born and his mother died when he was six, so he was raised first by his grandfather and then by an uncle. As a baby he was sent out to a wet nurse, Halima of the Banu Sa'd, to be raised for a few years in the clean air of the desert, which was the custom among Makkah's families. He worked as a shepherd, then as a trader, and he was so well known for keeping his word that the city called him the Trustworthy, which is a nickname worth having in a town that lived on contracts. At twenty-five he married Khadija, a businesswoman older than him who had employed him. At thirty-five he was asked to settle a dispute about which clan would lift the sacred black stone back into the wall of the Kaaba. He put it on a cloak and had all four clans lift a corner. That is the kind of man he was before anything else happened.",
    "meanwhile": "Byzantium and Persia are both ruled by strong emperors and both are about to ruin themselves. Plague keeps returning around the Mediterranean. In 589 China is reunited under the Sui.",
    "pop": "About 190 million people alive.",
    "src": "Quran 105. Al-Mubarakpuri, The Sealed Nectar. Ibn Kathir, al-Bidayah wan-Nihayah, volume 3.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "Makkah was a dry valley with no river and almost no farming, and it lived on two things: the sanctuary at its centre, which drew pilgrims and their money, and the caravans. Twice a year the city pooled its capital and sent a few thousand camels north to Syria and south to Yemen, and everyone from the great merchants to the men who hired out pack animals took a share of the risk and the profit. It was, in effect, a town-sized trading company."
   },
   {
    "id": "16",
@@ -863,7 +916,8 @@ window.DATA = {
    "pop": null,
    "src": "Quran 96:1-5, 74:1-7. Sahih al-Bukhari, the book of revelation. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "The cave is a real place you can still climb to, a couple of hours up a sharp black hill outside the city, just big enough for a man to sit in and look back down at the Kaaba. He went there to be alone, which tells you something in itself: in a town where everyone lived in everyone else's business, he was a man who needed to think."
   },
   {
    "id": "17",
@@ -889,12 +943,13 @@ window.DATA = {
      38.72
     ]
    ],
-   "story": "When he began preaching in public, Makkah turned on the weakest of his followers, because they were the ones with no clan to protect them. Bilal, an enslaved African, was pinned under a boulder in the sun and told to renounce his faith, and he answered with one word: one, meaning God is one. Sumayya was killed and became the first martyr. So around eighty Muslims crossed the Red Sea to Christian Ethiopia and asked its king for asylum. Makkah sent a delegation to demand them back. The king listened to both sides, heard a passage of the Quran about Mary and Jesus read aloud, wept, and refused to hand them over. The first time Muslims were protected by a foreign state, it was a Christian one.",
+   "story": "When he began preaching in public, Makkah turned on the weakest of his followers, because they were the ones with no clan to protect them. Bilal, an enslaved African, was pinned under a boulder in the sun and told to renounce his faith, and he answered with one word: one, meaning God is one. Sumayya was killed and became the first martyr. So around eighty Muslims crossed the Red Sea to Christian Ethiopia and asked its king for asylum. Makkah sent a delegation to demand them back. Ja'far, a cousin of the Prophet, spoke for the refugees. The king listened to both sides, heard Ja'far recite a passage of the Quran about Mary and Jesus, wept, and refused to hand them over. The first time Muslims were protected by a foreign state, it was a Christian one.",
    "meanwhile": "Persia captures Jerusalem in 614 and carries off the relic Christians called the True Cross. Makkah's pagans enjoy the news, because Rome shared their enemies' religion. A passage of the Quran replies that Rome will win within a few years, which at that moment looks impossible.",
    "pop": null,
    "src": "Quran 111, 30:1-5, and chapter 19, which was recited at the Ethiopian court. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "The people being tortured were the ones with no protection: an Abyssinian slave, a family of freed captives, a woman with no powerful clan. In Makkah your safety was your relatives, and if you had none who mattered, you could be pinned to the hot ground at noon and no law in the world would help you. That is the detail that makes the escape to Abyssinia make sense."
   },
   {
    "id": "18",
@@ -925,7 +980,8 @@ window.DATA = {
    "pop": null,
    "src": "Sahih al-Bukhari and Sahih Muslim. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "The boycott document was hung inside the Kaaba to make it binding. For three years the clan lived in a side-valley on the edge of the city, cut off from the markets, and the sources say they boiled leaves and old leather and that the crying of hungry children could be heard outside the ravine. It was not a battle. It was a slow economic siege of a whole family, children included."
   },
   {
    "id": "19",
@@ -988,12 +1044,13 @@ window.DATA = {
      39.62
     ]
    ],
-   "story": "Makkah decided to kill him, and the clans agreed to strike together so that no single family could be blamed. Ali slept in his bed as a decoy. He and Abu Bakr hid in a cave for three days while search parties passed within feet of them, and he told his frightened friend not to grieve, because God was with them. Then they rode north to a city that had invited him to come and govern it. He renamed nothing by force. The people of Madinah paired each penniless refugee with a local family who shared their home and income with them, which is the most successful refugee resettlement scheme anyone has ever run. He then wrote an agreement binding the Muslims and the Jewish tribes of the city into one community with a duty to defend each other. The Islamic calendar counts its years from this journey, not from his birth, because a community mattered more than a man.",
+   "story": "It began with a delegation. Men from Yathrib met him secretly at a place called Aqabah during the pilgrimage season, twice, and pledged to protect him as they would protect their own families. Those two pledges are why he had a city to go to. Then Makkah decided to kill him, and the clans agreed to strike together so that no single family could be blamed. Ali slept in his bed as a decoy. He and Abu Bakr hid in a cave for three days while search parties passed within feet of them, and he told his frightened friend not to grieve, because God was with them. Then they rode north to a city that had invited him to come and govern it. He renamed nothing by force. The people of Madinah paired each penniless refugee with a local family who shared their home and income with them, which is the most successful refugee resettlement scheme anyone has ever run. He then wrote an agreement binding the Muslims and the Jewish tribes of the city into one community with a duty to defend each other. The Islamic calendar counts its years from this journey, not from his birth, because a community mattered more than a man.",
    "meanwhile": "In this exact year Heraclius launches the counter-attack that will win Byzantium's war. Tang China is four years old. Across the ocean, Maya kings are carving dates onto stone monuments that we can still read to the day.",
    "pop": "About 200 million people alive.",
    "src": "Quran 9:40, 8:30. Al-Mubarakpuri, The Sealed Nectar. Al-Tabari, volumes 6 and 7.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "Yathrib, which took the name Madinah, was the opposite of Makkah: not a trading town but a farming oasis, green with date palms and wells, its land divided among tribes who had been feuding for generations. Into this the refugees arrived with nothing, and the system that saved them was simple and total. Each newcomer was paired with a local family who split their house, their land and their income down the middle with a stranger."
   },
   {
    "id": "21",
@@ -1013,12 +1070,13 @@ window.DATA = {
      38.79
     ]
    ],
-   "story": "Three hundred and thirteen men, badly armed, faced roughly a thousand. They won. The Quran calls the day the criterion, the day that separated one thing from another, and reminds them afterwards that they were few. Abu Jahl, the man who had led the persecution, was killed. What happened to the prisoners is the detail worth keeping: any captive who could read was allowed to buy his freedom by teaching ten Muslim children to read. A battle ended in a literacy programme.",
+   "story": "Three hundred and thirteen men, badly armed, faced roughly a thousand. They won. The Quran calls the day the criterion, the day that separated one thing from another, and reminds them afterwards that they were few. Abu Jahl, the man who had led the persecution, was killed. What happened to the prisoners is the detail worth keeping: any captive who could read was allowed to buy his freedom by teaching ten Muslim children to read. A battle ended in a literacy programme. A few months before Badr, the direction Muslims face in prayer, the qiblah, had been changed from Jerusalem to the Kaaba at Makkah, which gave the young community its own centre of gravity.",
    "meanwhile": "The Byzantine emperor is deep inside Persian territory dismantling an empire. Neither superpower notices a skirmish at a desert well, and both will be governed from that direction within twenty years.",
    "pop": null,
    "src": "Quran 8, and 3:123-127. Al-Mubarakpuri, The Sealed Nectar. Al-Tabari, volume 7.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "The numbers tell the story. Three hundred and thirteen men, seventy camels between them so that three men shared each and walked in turn, and two horses in the entire army. They reached the wells of Badr first and filled in the others, so that the thousand men and hundreds of horses coming against them would arrive thirsty. In that country, water was the weapon."
   },
   {
    "id": "22",
@@ -1043,7 +1101,8 @@ window.DATA = {
    "pop": null,
    "src": "Quran 3:121-179. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "This time there was no water to fight over, so the ground itself was the plan. They put the mountain of Uhud at their backs so no one could get behind them, and posted fifty archers on a low hill to guard the one open flank. It held until the archers, seeing the enemy break, came down for the loot and left the flank bare, and a cavalry commander named Khalid, still fighting for the other side, saw the gap and took it."
   },
   {
    "id": "23",
@@ -1068,7 +1127,8 @@ window.DATA = {
    "pop": null,
    "src": "Quran 33:9-27. Al-Mubarakpuri, The Sealed Nectar. Al-Tabari, volume 8.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "The trench was a foreign idea in Arabia, where war meant cavalry charges and single combat, and the Quraysh had never seen one. Men dug for days in cold and hunger, the Prophet among them carrying earth, and when the ten thousand arrived they simply stopped at the edge of a ditch their horses could not cross, sat in the winter wind while their alliance frayed, and went home."
   },
   {
    "id": "24",
@@ -1093,7 +1153,8 @@ window.DATA = {
    "pop": null,
    "src": "Quran 48. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "The whole crisis was over ritual, not territory. Fourteen hundred men had come in the white cloth of pilgrims, unarmed, driving the animals they meant to sacrifice, and were stopped at the edge of the sanctuary. The argument that followed was about wording, about whether the treaty could even call him the Messenger of God, and the concession he made on that point so angered his own men that some of them could barely be brought to shave their heads and turn back."
   },
   {
    "id": "25",
@@ -1113,12 +1174,13 @@ window.DATA = {
      39.83
     ]
    ],
-   "story": "The truce was broken by Makkah's allies, and ten thousand men marched on the city. It surrendered almost without a fight. He rode in with his head bowed so low it nearly touched the saddle, which is not how conquerors enter cities. The three hundred and sixty idols around the Kaaba were destroyed. Then he stood in front of the people who had tortured his followers, boycotted his family, driven him out and tried to kill him, and asked them what they expected. They said: mercy, from a generous brother. He said: go, you are free. Bilal, who had been tortured on those streets, climbed onto the roof of the Kaaba and called the prayer.",
+   "story": "The truce was broken by Makkah's allies, and ten thousand men marched on the city. It surrendered almost without a fight. He rode in with his head bowed so low it nearly touched the saddle, which is not how conquerors enter cities. The three hundred and sixty idols around the Kaaba were destroyed. Then he stood in front of the people who had tortured his followers, boycotted his family, driven him out and tried to kill him, and asked them what they expected. They said: mercy, from a generous brother. He said: go, you are free. Bilal, who had been tortured on those streets, climbed onto the roof of the Kaaba and called the prayer. Two campaigns followed. At Hunayn, weeks later, a Muslim army that had grown confident in its own numbers was ambushed and nearly broke, and the Quran took the lesson apart afterwards. Then in 630 he marched north to Tabuk, towards the Byzantine frontier, in punishing heat, and the empire did not come out to meet him. After that the tribes of Arabia came to Madinah one after another to join, and the year is remembered as the Year of Delegations.",
    "meanwhile": "In the same year the Byzantine emperor carries the True Cross back into Jerusalem in triumph, the high point of Christian Rome. Eight years later that city will surrender to a Muslim caliph.",
    "pop": null,
    "src": "Quran 17:81, 110, 9:25-26. Al-Mubarakpuri, The Sealed Nectar.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "He entered the city he had been driven out of at the head of ten thousand men, and he entered it bent low over his camel, close to the saddle, which is the posture of a man who has been given something rather than one who has taken it. The idols around the Kaaba were pulled down and broken. The people who had hunted him stood waiting to hear their sentence, and the sentence was that there was none."
   },
   {
    "id": "26",
@@ -1175,7 +1237,7 @@ window.DATA = {
      47.3
     ]
    ],
-   "story": "The moment the Prophet died, most of Arabia decided the deal was off. Tribes stopped paying the welfare tax, and several men announced that they were prophets now. Abu Bakr, a mild man who wept easily, refused to concede a single point and fought a hard year of campaigns to hold the community together. At the battle of Yamamah a large number of men who had memorised the entire Quran were killed, and it occurred to Umar that if this kept happening the text could be lost. So Abu Bakr ordered it collected and written into a single copy. It is difficult to overstate how important that decision was.",
+   "story": "The moment the Prophet died, most of Arabia decided the deal was off. Tribes stopped paying the welfare tax, and several men announced that they were prophets now. Abu Bakr, a mild man who wept easily, refused to concede a single point and fought a hard year of campaigns to hold the community together. At the battle of Yamamah a large number of men who had memorised the entire Quran were killed, and it occurred to Umar that if this kept happening the text could be lost. So Abu Bakr gave the task to Zayd ibn Thabit, who had been one of the Prophet's scribes, and ordered the whole text collected and written into a single copy. It is difficult to overstate how important that decision was.",
    "meanwhile": "Byzantium and Persia have just finished ruining each other in a twenty-six year war. Neither has the money or the men to hold its frontier, and neither has noticed what is now organised on the other side of it.",
    "pop": null,
    "src": "Sahih al-Bukhari. Ibn Kathir, al-Bidayah wan-Nihayah, volume 5. Al-Tabari, volumes 10 and 11.",
@@ -1224,12 +1286,13 @@ window.DATA = {
      48.38
     ]
    ],
-   "story": "In ten years, a thousand years of settled power in the Middle East came apart. Byzantine Syria fell at Yarmouk, Persian Iraq fell at Qadisiyyah, and Persia itself broke at Nihawand. When Jerusalem surrendered, the patriarch insisted on handing the keys to the caliph in person. Umar arrived having shared the ride with his servant, taking turns on one camel, and the servant's turn happened to fall on the last stretch, so the most powerful man in the region walked into Jerusalem on foot leading the camel while his servant rode. Invited to pray inside the Church of the Holy Sepulchre, he refused, and prayed outside instead, saying that if he prayed there Muslims would later claim the building. It is still a church. He signed a document guaranteeing the Christians their lives, their property and their worship. He also built a state: a register of pay, salaried judges, garrison cities, public grain stores, a census, and the calendar Muslims still use. He was murdered while leading prayer.",
+   "story": "In ten years, a thousand years of settled power in the Middle East came apart. Byzantine Syria fell at Yarmouk, Persian Iraq fell at Qadisiyyah, and Persia itself broke at Nihawand. When Jerusalem surrendered, the patriarch insisted on handing the keys to the caliph in person. Umar arrived having shared the ride with his servant, taking turns on one camel, and the servant's turn happened to fall on the last stretch, so the most powerful man in the region walked into Jerusalem on foot leading the camel while his servant rode. Invited to pray inside the Church of the Holy Sepulchre, he refused, and prayed outside instead, saying that if he prayed there Muslims would later claim the building. It is still a church. He signed a document guaranteeing the Christians their lives, their property and their worship. When plague broke out at Amwas in Syria, he turned his army back at the border rather than march into it, and argued that avoiding a plague is not fleeing from God's decree but choosing between two of them. It is one of the earliest recorded quarantine decisions by a head of state. He also built a state: a register of pay, salaried judges, garrison cities, public grain stores, a census, and the calendar Muslims still use. He was murdered while leading prayer.",
    "meanwhile": "The Byzantine emperor dies watching the reconquest of his life evaporate. In these exact years the Chinese monk Xuanzang is walking across India and writing down everything he sees, which is our best description of that country at the moment this was happening on the other side of the mountains.",
    "pop": "The conquered lands hold fifteen to twenty million people, governed from a town of mud-brick houses.",
    "src": "Ibn Kathir, al-Bidayah wan-Nihayah, volume 5. Al-Tabari, volumes 12 to 14. Sarwat Saulat, volume 1.",
    "inv": null,
-   "zone": "z6"
+   "zone": "z6",
+   "ground": "When Umar took Jerusalem he arrived in patched clothes, sharing one camel with his servant, and the local Christians who came out expecting a conqueror in gold could not at first tell which man was the caliph. He signed a guarantee of their churches and their safety, and when the hour of Muslim prayer came he stepped outside the Church of the Holy Sepulchre to pray, so that no one could later turn the church into a mosque on the grounds that he had prayed in it. It is still a church."
   },
   {
    "id": "29",
@@ -1286,7 +1349,7 @@ window.DATA = {
      39.02
     ]
    ],
-   "story": "Ali, the Prophet's cousin and son-in-law, inherited a community demanding justice for a murdered caliph while some of the murderers stood in his own army. He fought two civil wars he did not want. At Siffin the fighting was stopped by a call for arbitration, and when he accepted it, a group of his own supporters turned on him for agreeing that men could judge what they said only God could judge. They became the first extremist sect in Islamic history, and one of them killed him at dawn prayer. His son Hasan then gave up his claim to avoid further bloodshed, and the community was briefly whole again. This is the point where Sunni and Shia memory diverge. This site follows the classical Sunni sources, as it says it does, and notes plainly that the other tradition remembers these events differently.",
+   "story": "Ali, the Prophet's cousin and son-in-law, inherited a community demanding justice for a murdered caliph while some of the murderers stood in his own army. He fought two civil wars he did not want. At Siffin the fighting was stopped by a call for arbitration, and when he accepted it, a group of his own supporters turned on him for agreeing that men could judge what they said only God could judge. They became the first extremist sect in Islamic history. He fought them at Nahrawan, and one of the survivors killed him at dawn prayer. His son Hasan then gave up his claim to avoid further bloodshed, and the community was briefly whole again. This is the point where Sunni and Shia memory diverge. Classical Sunni sources are followed here; the Shia tradition remembers these events differently.",
    "meanwhile": "The political centre of Islam leaves Arabia for Iraq and never returns.",
    "pop": null,
    "src": "Ibn Kathir, volume 5. Al-Tabari, volumes 16 and 17. Sarwat Saulat, volume 1.",
@@ -1459,12 +1522,13 @@ window.DATA = {
      6.08
     ]
    ],
-   "story": "Al-Mansur built a perfectly round city at the point where the Tigris and Euphrates come closest, on the trade routes between everywhere and everywhere. Within fifty years it may have been the largest city on earth. Harun al-Rashid ruled it at its height, exchanged embassies with Charlemagne in Germany and with Tang China, and sent Charlemagne an elephant, which walked to Aachen. The single most important thing that happened, though, was quiet: at the battle of Talas in 751 the Muslims captured Chinese papermakers. Paper mills opened in Samarkand and then Baghdad. Books stopped being luxury objects. Everything that follows depends on that.",
+   "story": "Al-Mansur built a perfectly round city at the point where the Tigris and Euphrates come closest, on the trade routes between everywhere and everywhere. Within fifty years it may have been the largest city on earth. Harun al-Rashid ruled it at its height, exchanged embassies with Charlemagne in Germany and with Tang China, and sent Charlemagne an elephant, which walked to Aachen. The single most important thing that happened, though, was quiet: at the battle of Talas in 751 the Muslims captured Chinese papermakers. Paper mills opened in Samarkand and then Baghdad. Books stopped being luxury objects. Everything that follows depends on that. The same period settles Islamic law. Four great scholars, Abu Hanifa, Malik, al-Shafi'i and Ahmad ibn Hanbal, produce the four schools of law that Sunni Muslims still follow, and al-Bukhari and Muslim sift hundreds of thousands of reported sayings of the Prophet to compile the collections that are still the standard.",
    "meanwhile": "Charlemagne is crowned emperor in Rome in 800. Vikings raid Lindisfarne in 793 and will soon be trading furs for Baghdad's silver coins. China is torn apart by the An Lushan rebellion, one of the deadliest wars in history.",
    "pop": "About 220 to 250 million people alive. Baghdad, Cordoba and Chang'an are the three great cities of the world.",
    "src": "Sarwat Saulat, volume 2. Al-Tabari, volumes 28 to 34.",
    "inv": null,
-   "zone": "z7"
+   "zone": "z7",
+   "ground": "Baghdad was built round on purpose, a perfect circle of double walls with four gates, the caliph's palace and the great mosque at the dead centre and the people housed in the ring between. It sat where the Tigris and Euphrates come closest, so goods could move between them, and within a lifetime it may have been the largest city on earth, its markets stocked with Chinese silk, Indian spices, African ivory and Baltic amber."
   },
   {
    "id": "35b",
@@ -1502,12 +1566,13 @@ window.DATA = {
      73.28
     ]
    ],
-   "story": "This is the part of the story most people were never taught, so it is worth naming the individuals. Al-Khwarizmi wrote a book about balancing equations, and the Arabic word in its title, al-jabr, became algebra. His own name, mangled by Latin scribes, became the word algorithm, which is now how the world describes the thing your phone runs on. Ibn al-Haytham worked out that we see because light enters the eye, not because the eye emits rays, and he insisted that a claim means nothing until it survives an experiment. That is the scientific method, three centuries before Europe adopted it. Al-Zahrawi in Spain wrote an illustrated surgical textbook and designed instruments you would still recognise on a modern tray. Ibn Sina's Canon of Medicine was the standard textbook in European universities into the 1600s. Al-Biruni stood on a mountain in what is now Pakistan, measured the angle to the horizon, and calculated the size of the earth to within one per cent. They translated the Greeks, and then went past them.",
+   "story": "This is the part of the story most people were never taught, so it is worth naming the individuals. Al-Khwarizmi wrote a book about balancing equations, and the Arabic word in its title, al-jabr, became algebra. His own name, mangled by Latin scribes, became the word algorithm, which is now how the world describes the thing your phone runs on. Ibn al-Haytham worked out that we see because light enters the eye, not because the eye emits rays, and he insisted that a claim means nothing until it survives an experiment. That is the scientific method, three centuries before Europe adopted it. Al-Zahrawi in Spain wrote an illustrated surgical textbook and designed instruments you would still recognise on a modern tray. Ibn Sina's Canon of Medicine was the standard textbook in European universities into the 1600s. Al-Biruni stood on a mountain in what is now Pakistan, measured the angle to the horizon, and calculated the size of the earth to within one per cent. Around them worked others who should be named. Jabir ibn Hayyan turned alchemy into something closer to chemistry, with laboratory apparatus and repeatable procedures. Hunayn ibn Ishaq ran the translation effort and was reportedly paid the weight of each finished book in gold. The three brothers known as the Banu Musa built ingenious machines and wrote a book of them. They translated the Greeks, and then went past them.",
    "meanwhile": "Europe at this moment is largely rural and mostly illiterate outside the monasteries. When European universities appear in the 1100s, their science curriculum is substantially made of translations from Arabic, done in Spain and Sicily. That transfer is one of the most consequential things in this timeline and it is almost never drawn on a map.",
    "pop": null,
    "src": "Sarwat Saulat, volume 2. Ibn Kathir, volume 6. Standard histories of science.",
    "inv": "Algebra. The word algorithm. The experimental method in optics. Surgical instruments still in use. The astrolabe refined into a precision instrument. Hospitals with wards, case notes and licensing exams for doctors.",
-   "zone": "z7"
+   "zone": "z7",
+   "ground": "The House of Wisdom worked on cheap paper, newly arrived from China, which changed everything: a book that had cost a fortune to copy onto parchment could now be produced for a fraction of it. Translators were paid, by some accounts, the weight of a finished book in gold. Scholars argued in the margins of the Greeks they were translating, corrected them, and moved past them, and the results were written down and copied and sold in a way no earlier age could afford."
   },
   {
    "id": "36",
@@ -1545,7 +1610,7 @@ window.DATA = {
      39.51
     ]
    ],
-   "story": "By now there is a caliph in Baghdad, a rival caliph in Cairo and a third in Cordoba, and yet it is one civilisation, because the law, the language and the pilgrimage hold it together. Cordoba has street lighting and paved roads while Paris is mud. Al-Azhar is founded in Cairo and is still teaching. Meanwhile Islam spreads to West Africa, the Swahili coast, the Volga and Southeast Asia almost entirely through merchants and scholars rather than armies, which is worth saying because it is not the story most people are told.",
+   "story": "By now there is a caliph in Baghdad, a rival caliph in Cairo and a third in Cordoba, and yet it is one civilisation, because the law, the language and the pilgrimage hold it together. Cordoba has street lighting and paved roads while Paris is mud. Al-Azhar is founded in Cairo and is still teaching. The Cairo caliphate is the Fatimids, a Shia dynasty, and it is they who found al-Azhar. Mahmud of Ghazna raids deep into India from Afghanistan. In Persian, Firdawsi completes the Shahnameh, a national epic of sixty thousand verses. Later, al-Ghazali writes a book pulling philosophy apart and then another putting faith back together, and changes Muslim thought permanently. In Cairo, a storeroom of discarded documents, the Geniza, preserves the letters and contracts of Jewish merchants living and trading in this Muslim world, which is how we know so much about ordinary life in it. The philosopher Maimonides, the greatest Jewish thinker of the age, fled persecution in Spain and became a physician at Saladin's court in Cairo. Honesty cuts both ways, and that fact belongs here. Meanwhile Islam spreads to West Africa, the Swahili coast, the Volga and Southeast Asia almost entirely through merchants and scholars rather than armies, which is worth saying because it is not the story most people are told.",
    "meanwhile": "Christianity splits into Catholic and Orthodox in 1054. The Normans take England in 1066. Song China invents printing with movable type, paper money and the compass, and is probably the most technologically advanced society on earth.",
    "pop": "About 265 million people alive. Cordoba has a quarter of a million or more, while London is a small town.",
    "src": "Sarwat Saulat, volume 2. McEvedy and Jones.",
@@ -1582,12 +1647,13 @@ window.DATA = {
      35.45
     ]
    ],
-   "story": "The Turks broke a Byzantine army at Manzikert and Anatolia began the long process of becoming Turkey. Byzantium asked western Europe for help, and got rather more than it asked for. The First Crusade took Jerusalem in 1099 and massacred its people, which chroniclers on both sides recorded without embarrassment. Ninety years later Saladin, a Kurd who had made himself ruler of Egypt and Syria, destroyed the Crusader army at Hattin and took Jerusalem back. He did not massacre anybody. He ransomed the poor out of his own money when the city could not pay, and let the Christians keep their churches. European writers made him the model of chivalry, which is a strange fate for an enemy, and a deserved one.",
+   "story": "The Turks broke a Byzantine army at Manzikert and Anatolia began the long process of becoming Turkey. Byzantium asked western Europe for help, and got rather more than it asked for. The First Crusade took Jerusalem in 1099 and massacred its people, which chroniclers on both sides recorded without embarrassment. The recovery took two generations and two men who are usually left out of the story. Zangi took Edessa back in 1144, and Nur ad-Din united Syria and gave the young Saladin his start. Ninety years later Saladin, a Kurd who had made himself ruler of Egypt and Syria, destroyed the Crusader army at Hattin and took Jerusalem back. He did not massacre anybody. He ransomed the poor out of his own money when the city could not pay, and let the Christians keep their churches. European writers made him the model of chivalry, which is a strange fate for an enemy, and a deserved one.",
    "meanwhile": "The first universities appear in Europe, at Bologna, Paris and Oxford, and much of what they teach in science and medicine comes from Arabic books translated in Spain. Angkor Wat is being built in Cambodia.",
    "pop": null,
    "src": "Sarwat Saulat, volume 2. Ibn Kathir, volume 7.",
    "inv": null,
-   "zone": "z7"
+   "zone": "z7",
+   "ground": "When Saladin retook Jerusalem he did what the Crusaders taking it had not: he let the people live. Those who could pay a ransom were freed, and when the poor could not raise it he and his brother paid for many of them out of their own pockets and let others simply walk out. Christian chroniclers, who had every reason to hate him, wrote him down as the model of a chivalrous prince, which is a strange and telling fate for an enemy."
   },
   {
    "id": "38",
@@ -1618,7 +1684,8 @@ window.DATA = {
    "pop": "The Mongol wars cost tens of millions of lives.",
    "src": "Sarwat Saulat, volume 2. Ibn Kathir, volume 7.",
    "inv": null,
-   "zone": "z8"
+   "zone": "z8",
+   "ground": "The sources describe the sack of Baghdad in numbers that are hard to hold: the canals choked, the libraries emptied into the Tigris until the water ran black with ink, the largest city of the Muslim world reduced in a week. Two years later, at a spring in Palestine, an army of former slave-soldiers from Egypt did what no one had managed and beat the Mongols in open battle, and the advance that had seemed unstoppable simply stopped."
   },
   {
    "id": "39",
@@ -1706,12 +1773,13 @@ window.DATA = {
      28.98
     ]
    ],
-   "story": "Mehmed II was twenty-one. The city had held out against every army for a thousand years behind the strongest walls in the world. He had cannon big enough to break them, and when his fleet could not get into the harbour he had his ships dragged overland on greased timbers and put them in behind the chain. The city fell, and the Roman empire, which had begun before Christ, ended on a Tuesday morning. Hagia Sophia became a mosque. Greek scholars fled west carrying manuscripts, and their arrival helped set off the Renaissance in Italy, so the same event closes one civilisation and helps to open another.",
+   "story": "Mehmed II was twenty-one. The city had held out against every army for a thousand years behind the strongest walls in the world. He had cannon big enough to break them, and when his fleet could not get into the harbour he had his ships dragged overland on greased timbers and put them in behind the chain. The city fell, and the Roman empire, which had begun before Christ, ended on a Tuesday morning. Hagia Sophia became a mosque. Mehmed had the grave of Abu Ayyub al-Ansari found, a companion of the Prophet who had died besieging these same walls eight centuries earlier, and built a shrine over it, which tied the new Ottoman capital back to the very beginning. Greek scholars fled west carrying manuscripts, and their arrival helped set off the Renaissance in Italy, so the same event closes one civilisation and helps to open another.",
    "meanwhile": "Gutenberg is printing his first books in Germany in these very years. Europe gets cheap books at precisely the moment it receives the Greek library.",
    "pop": null,
    "src": "Sarwat Saulat, volume 3.",
    "inv": null,
-   "zone": "z9"
+   "zone": "z9",
+   "ground": "The walls of Constantinople had turned back every army for a thousand years, so Mehmed brought a cannon so large it had to be cast on the spot and could be fired only a few times a day, and when his ships could not force the chained harbour he had them dragged overland on greased logs and slid in behind the chain overnight. The city that had been the capital of the Roman world for eleven centuries fell on a Tuesday morning."
   },
   {
    "id": "41",
@@ -1774,7 +1842,7 @@ window.DATA = {
      12.65
     ]
    ],
-   "story": "The Ottoman sultan defeated the Mamluks and took Egypt, Syria and the guardianship of Makkah and Madinah. With it, by Ottoman account, came the title of caliph, which stayed in Istanbul until 1924. In the very same year, a German monk nailed a list of complaints to a church door in Wittenberg and split western Christianity in half. Two things worth putting side by side. Meanwhile three Muslim empires now hold much of the world: the Ottomans, the Safavids in Iran, who made the country Shia by force from 1501 and hardened a division you can still see on a map today, and the Mughals in India from 1526, who ruled the richest state on earth.",
+   "story": "The Ottoman sultan Selim first beat the Safavids of Iran at Chaldiran in 1514, where his cannon and muskets destroyed a cavalry army that had refused to use them. Then he turned south, defeated the Mamluks, and took Egypt, Syria and the guardianship of Makkah and Madinah. With it, by Ottoman account, came the title of caliph, which stayed in Istanbul until 1924. In the very same year, a German monk nailed a list of complaints to a church door in Wittenberg and split western Christianity in half. Two things worth putting side by side. Meanwhile three Muslim empires now hold much of the world: the Ottomans, the Safavids in Iran, who made the country Shia by force from 1501 and hardened a division you can still see on a map today, and the Mughals in India from 1526, who ruled the richest state on earth.",
    "meanwhile": null,
    "pop": "Mughal India holds a hundred to a hundred and fifty million people and produces roughly a quarter of everything made on earth.",
    "src": "Sarwat Saulat, volume 3.",
@@ -1810,7 +1878,8 @@ window.DATA = {
    "pop": "About 545 to 580 million people alive by 1600.",
    "src": "Sarwat Saulat, volume 3.",
    "inv": null,
-   "zone": "z9"
+   "zone": "z9",
+   "ground": "Suleiman's Istanbul was the largest city in Europe, and his architect Sinan, who had begun life as a conscripted Christian boy, filled it with domes. His mosques were not just large, they were solved: each one an argument about how to carry a round dome on a square base and fill the result with light, worked out in stone, and the best of them are still among the most serene rooms ever built."
   },
   {
    "id": "44",
@@ -1848,7 +1917,7 @@ window.DATA = {
      29.92
     ]
    ],
-   "story": "The Muslim empires stay enormous, but something has changed and the maps start showing it. Vienna holds in 1683. In 1699 the Ottomans sign away Hungary, the first time they have handed back real territory. Safavid Iran collapses. The Mughal empire decays after Aurangzeb, and an English trading company with its own private army wins a battle at Plassey in 1757 and finds itself collecting the taxes of Bengal. By 1800 that company governs more Indians than the emperor does. Russia annexes the Crimean Khanate in 1783, the first Muslim country taken by a European power in modern times. Then in 1798 Napoleon lands in Egypt with an army and a team of scientists, and the message is unmistakable: Europe can now walk into the heartland whenever it likes.",
+   "story": "The Muslim empires stay enormous, but something has changed and the maps start showing it. Vienna holds in 1683. In 1699 the Ottomans sign away Hungary, the first time they have handed back real territory. Safavid Iran collapses, and a soldier named Nadir Shah briefly puts it back together, sacks Delhi, and carries off the Mughal peacock throne. The Marathas rise in central India and take most of what the Mughals lose, which is why the British ended up fighting them and not the emperor. The Mughal empire decays after Aurangzeb, and an English trading company with its own private army wins a battle at Plassey in 1757 and finds itself collecting the taxes of Bengal. By 1800 that company governs more Indians than the emperor does. Russia annexes the Crimean Khanate in 1783, the first Muslim country taken by a European power in modern times. Then in 1798 Napoleon lands in Egypt with an army and a team of scientists, and the message is unmistakable: Europe can now walk into the heartland whenever it likes.",
    "meanwhile": "Newton publishes his laws in 1687. The Atlantic slave trade is at its height. America and France have their revolutions. Steam engines start turning in Britain, and the gap that will define the next two centuries begins to open.",
    "pop": "The world passes one billion people around 1804.",
    "src": "Sarwat Saulat, volumes 3 and 4.",
@@ -1903,12 +1972,13 @@ window.DATA = {
      13.4
     ]
    ],
-   "story": "Within one century almost the entire Muslim world comes under European control. France takes Algeria, then Tunisia, then Morocco. Britain rules India directly after crushing the 1857 uprising, and the last Mughal emperor, a poet in his eighties, is put on trial and exiled to Burma, where he dies. Britain occupies Egypt in 1882 because Egypt cannot pay debts it was encouraged to run up. Russia swallows Central Asia. The Dutch consolidate Indonesia. And in 1884 the powers of Europe sit down in Berlin with a map of Africa and divide it among themselves, without a single African in the room. Those borders are still there. The Ottomans try to modernise, declare all citizens equal regardless of religion, write a constitution, and build a railway to Madinah, but they are running out of time.",
+   "story": "Within one century almost the entire Muslim world comes under European control. France takes Algeria, then Tunisia, then Morocco. Britain rules India directly after crushing the 1857 uprising, and the last Mughal emperor, a poet in his eighties, is put on trial and exiled to Burma, where he dies. Britain occupies Egypt in 1882 because Egypt cannot pay debts it was encouraged to run up. Russia swallows Central Asia. The Dutch consolidate Indonesia. And in 1884 the powers of Europe sit down in Berlin with a map of Africa and divide it among themselves, without a single African in the room. Those borders are still there. The Ottomans try to modernise. The Tanzimat reforms declare all citizens equal regardless of religion, a constitution is written in 1876, and Sultan Abdulhamid II appeals over the heads of the European powers to Muslims everywhere, from Istanbul to Singapore, and builds a railway to carry pilgrims to Madinah. They are running out of time.",
    "meanwhile": "Railways, telegraphs and steamships shrink the world. London, with six and a half million people, is the largest city on earth, and for the first time in this entire timeline the biggest cities are in Europe.",
    "pop": "About 1.6 billion people alive by 1900.",
    "src": "Sarwat Saulat, volumes 4 and 5.",
    "inv": null,
-   "zone": "z10"
+   "zone": "z10",
+   "ground": "The machinery of empire by now was mundane and total: a telegraph line, a railway, a gunboat on a river, a customs house, a resident adviser whose advice could not be refused. Countries were taken not always by armies but by debt, by a canal company, by a treaty signed under the guns of a fleet, and the map filled up with the colours of a few European capitals almost quietly."
   },
   {
    "id": "46",
@@ -1982,7 +2052,8 @@ window.DATA = {
    "pop": null,
    "src": "Sarwat Saulat, volume 5.",
    "inv": null,
-   "zone": "z11"
+   "zone": "z11",
+   "ground": "The last caliph left on a train. Abdulmejid, the hundred and first man to hold an office founded the day after the Prophet died, was driven to a station at night and put on the Orient Express with his family and a suitcase, and told not to come back. There was no battle and no ceremony. An institution of one thousand two hundred and ninety-two years simply stopped, by a vote in a parliament, on a Monday."
   },
   {
    "id": "48",
@@ -2057,7 +2128,7 @@ window.DATA = {
      -122.42
     ]
    ],
-   "story": "The deadliest event in human history. Muslim lands were battlefields and were also asked for men: two and a half million Indians volunteered, the largest volunteer army ever raised, and a great many of them were Muslims. North Africa was fought over. Iran was occupied by its supposed friends. In Europe, six million Jews were murdered in a system built for the purpose, and this site states that plainly and without qualification, because a history that flinches at that is not worth reading. The war ended with two superpowers standing, the European empires bankrupt, and a new organisation founded in San Francisco with Egypt, Iraq, Iran, Saudi Arabia, Syria, Lebanon and Turkey among its founding members. Within two years of the closing frame of this timeline, Pakistan and India are independent, and the age of empires is over.",
+   "story": "The deadliest event in human history. Muslim lands were battlefields and were also asked for men: two and a half million Indians volunteered, the largest volunteer army ever raised, and a great many of them were Muslims. North Africa was fought over. Iran was occupied by its supposed friends. In Europe, six million Jews were murdered in a system built for the purpose,. The war ended with two superpowers standing, the European empires bankrupt, and a new organisation founded in San Francisco with Egypt, Iraq, Iran, Saudi Arabia, Syria, Lebanon and Turkey among its founding members. Within two years of the closing frame of this timeline, Pakistan and India are independent, and the age of empires is over.",
    "meanwhile": null,
    "pop": "About 2.3 billion people alive.",
    "src": "Sarwat Saulat, volume 5. HYDE and Our World in Data for population.",
@@ -2124,7 +2195,8 @@ window.DATA = {
    "inv": "Cuneiform writing. The wheel. The plough. Bronze. The sail. Irrigation. The sixty-minute hour.",
    "id": "W2",
    "num": "W2",
-   "zone": "z1"
+   "zone": "z1",
+   "ground": "Uruk's people invented writing to keep track of stuff: how much grain, how many sheep, owed by whom. The earliest tablets are lists and receipts, pressed into wet clay with a reed and dried in the sun, and hundreds of thousands survive because fire, which destroys paper, only bakes clay harder. History begins as a warehouse inventory."
   },
   {
    "side": "w",
@@ -2149,7 +2221,8 @@ window.DATA = {
    "inv": "Precision stone cutting. Surveying. Large-scale project management and payroll.",
    "id": "W3",
    "num": "W3",
-   "zone": "z1"
+   "zone": "z1",
+   "ground": "The men who built the Great Pyramid were not slaves but rotating gangs of paid labourers, and we know because their village has been dug up: bakeries, breweries, a clinic that set broken bones, and their own graffiti naming their work teams with pride. They were fed a set ration of bread, beer and onions, and the ones who died on the job were buried nearby with honour."
   },
   {
    "side": "w",
@@ -2180,7 +2253,8 @@ window.DATA = {
    "inv": "Standardised weights and bricks. Covered sewers and household drains. Urban grid planning. Dentistry.",
    "id": "W4",
    "num": "W4",
-   "zone": "z1"
+   "zone": "z1",
+   "ground": "The cities of the Indus were built to a plan no other ancient people matched: straight streets on a grid, houses of standard bricks, and almost every home connected to a covered drain running under the street to a soak-pit. There is no obvious palace and no obvious temple, no giant tomb and no boastful king, which is either the biggest mystery about them or the most interesting thing about them."
   },
   {
    "side": "w",
@@ -2205,11 +2279,12 @@ window.DATA = {
    "inv": "A published legal code. Fixed penalties. The idea that law stands above individual judgement.",
    "id": "W5",
    "num": "W5",
-   "zone": "z2"
+   "zone": "z2",
+   "ground": "The laws were carved onto a black stone pillar taller than a man and set up where people could see it, topped by a carving of the king receiving the law from a god. Below run two hundred and eighty-two rulings in neat columns: what a doctor may charge, what a builder owes if his house collapses, how a dispute over a field is settled. Most people could not read it, but its being there, in public, was the point."
   },
   {
    "side": "w",
-   "sort": -1200,
+   "sort": -1205,
    "dated": true,
    "yearLabel": "About 1200 to 1150 BC",
    "ah": null,
@@ -2236,7 +2311,7 @@ window.DATA = {
    "inv": null,
    "id": "W6",
    "num": "W6",
-   "zone": "z3"
+   "zone": "z2b"
   },
   {
    "side": "w",
@@ -2261,7 +2336,8 @@ window.DATA = {
    "inv": "Siege towers and battering rams. Imperial roads and a relay post. Systematic record-keeping in a royal library.",
    "id": "W7",
    "num": "W7",
-   "zone": "z3"
+   "zone": "z3",
+   "ground": "Assyria advertised its own terror on purpose. The walls of its palaces were lined with carved stone panels showing the army breaking cities, and the inscriptions boast of the numbers deported and the rebels flayed. It was propaganda, meant to be seen by envoys and to travel home ahead of the army, and it worked, which is why a small country receiving a warning from Nineveh took it very seriously."
   },
   {
    "side": "w",
@@ -2323,7 +2399,8 @@ window.DATA = {
    "inv": "The imperial road and relay post. Standardised coinage across an empire. Underground irrigation channels called qanats, still in use in Iran.",
    "id": "W9",
    "num": "W9",
-   "zone": "z4"
+   "zone": "z4",
+   "ground": "The Persian empire was held together by a road. The Royal Road ran fifteen hundred miles from the Aegean to the heartland, with stations a day's ride apart where a king's messenger could change horses, so that a message crossed the whole empire in a week when an ordinary traveller took three months. It is the ancestor of every postal relay since."
   },
   {
    "side": "w",
@@ -2385,7 +2462,8 @@ window.DATA = {
    "inv": "Formal logic. Geometry as proof. The beginnings of medicine as observation rather than magic. The Antikythera mechanism, a geared bronze computer for predicting eclipses.",
    "id": "W11",
    "num": "W11",
-   "zone": "z4"
+   "zone": "z4",
+   "ground": "Athens at its height was a city of perhaps a quarter of a million people, of whom the citizens who could vote were a minority, the enslaved a third, and the resident foreigners neither. In the public square a man could hear a philosopher, buy fish, watch a trial by several hundred jurors, and vote to send an army, all in a morning, and the same democracy that ran it also voted, one day, to execute Socrates for asking too many questions."
   },
   {
    "side": "w",
@@ -2472,7 +2550,8 @@ window.DATA = {
    "inv": "Paper, about 105 CE. The seismograph. The wheelbarrow. The horse collar. The civil service examination.",
    "id": "W14",
    "num": "W14",
-   "zone": "z4"
+   "zone": "z4",
+   "ground": "The First Emperor standardised everything so that his empire would hold: one script, one width for cart axles so every cart fit the ruts, one set of weights, one coin. Then he was buried under a mound with an army of eight thousand life-sized clay soldiers, each with a different face, arranged in battle order to guard him, and forgotten so completely that a farmer digging a well found them by accident two thousand years later."
   },
   {
    "side": "w",
@@ -2540,7 +2619,8 @@ window.DATA = {
    "inv": null,
    "id": "W16",
    "num": "W16",
-   "zone": "z5"
+   "zone": "z5",
+   "ground": "Constantine moved the capital of the Roman world to a Greek town on the straits, renamed it after himself, and called a council of bishops to settle, by a vote, what Christians were required to believe. Within a lifetime the old temples were closing and the new faith was the state's, and the western half of the empire, meanwhile, was quietly falling apart into kingdoms run by the generals of its own hired armies."
   },
   {
    "side": "w",
@@ -2571,7 +2651,8 @@ window.DATA = {
    "inv": "Zero as a number. The decimal place-value system. The calculation of pi to four places. The rotation of the earth, proposed and defended.",
    "id": "W17",
    "num": "W17",
-   "zone": "z5"
+   "zone": "z5",
+   "ground": "The great invention of Gupta India looks like nothing: a small circle standing for no quantity at all. But zero as a number, with a place-value system behind it, turns arithmetic from a specialist's craft into something a child can do, and it made possible the algebra, the astronomy and eventually the computing of everyone who came after. The digits you are reading travelled from here to Baghdad to Europe."
   },
   {
    "side": "w",
@@ -2600,9 +2681,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Greek fire. The codification of Roman law under Justinian. The pendentive dome, which made Hagia Sophia possible.",
-   "id": "W18",
-   "num": "W18",
-   "zone": "z5"
+   "id": "W19",
+   "num": "W19",
+   "zone": "z5",
+   "ground": "Byzantium's people called themselves Romans to the very end, a thousand years after Rome itself had fallen. They kept the Roman law, wrote it down in the form Europe would copy, and defended a single city behind the strongest walls in the world with a secret weapon, a liquid fire that burned on water and whose recipe was guarded so closely that it is lost to this day."
   },
   {
    "side": "w",
@@ -2631,13 +2713,13 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Quran 30:1-5.",
    "inv": null,
-   "id": "W19",
-   "num": "W19",
+   "id": "W20",
+   "num": "W20",
    "zone": "z6"
   },
   {
    "side": "w",
-   "sort": 700,
+   "sort": 640,
    "dated": true,
    "yearLabel": "618 to 907 CE",
    "ah": null,
@@ -2662,9 +2744,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Sarwat Saulat, volume 2.",
    "inv": "Woodblock printing. Porcelain. Gunpowder, first recorded by alchemists looking for immortality. The mechanical clock escapement.",
-   "id": "W20",
-   "num": "W20",
-   "zone": "z7"
+   "id": "W22",
+   "num": "W22",
+   "zone": "z6",
+   "ground": "Chang'an, the Tang capital, was the largest and most cosmopolitan city on earth, laid out on a grid inside walls with a curfew, its markets selling goods from the whole of Asia. On its streets you could find Buddhist monks, Persian merchants, Christian and Zoroastrian priests, Korean students and, within a century, Muslim traders, all under an empire founded four years before the migration to Madinah."
   },
   {
    "side": "w",
@@ -2699,9 +2782,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Sarwat Saulat, volume 2.",
    "inv": "The longship, shallow enough for rivers and seaworthy enough for the Atlantic. Sun compasses and remarkable open-sea navigation.",
-   "id": "W21",
-   "num": "W21",
-   "zone": "z7"
+   "id": "W23",
+   "num": "W23",
+   "zone": "z7",
+   "ground": "The longship was the whole secret: shallow enough to row up a river and land on a beach, seaworthy enough to cross open ocean, and fast. The same men who raided a monastery one year traded furs down a Russian river the next, and rowed all the way to the markets of the Muslim world, which is why a Swedish farmer today still occasionally turns up a silver coin minted in Baghdad in his field."
   },
   {
    "side": "w",
@@ -2730,8 +2814,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Folded steel swordmaking of extraordinary quality. Woodblock printing. The novel, arguably.",
-   "id": "W22",
-   "num": "W22",
+   "id": "W24",
+   "num": "W24",
    "zone": "z7"
   },
   {
@@ -2755,8 +2839,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": null,
-   "id": "W23",
-   "num": "W23",
+   "id": "W25",
+   "num": "W25",
    "zone": "z7"
   },
   {
@@ -2786,8 +2870,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Hydraulic engineering on a vast scale: reservoirs, canals and irrigation supporting perhaps three quarters of a million people.",
-   "id": "W24",
-   "num": "W24",
+   "id": "W26",
+   "num": "W26",
    "zone": "z7"
   },
   {
@@ -2817,8 +2901,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Movable type. Paper money. The mariner's compass. Gunpowder weapons. Blast furnaces. Locks on canals.",
-   "id": "W25",
-   "num": "W25",
+   "id": "W27",
+   "num": "W27",
    "zone": "z7"
   },
   {
@@ -2854,8 +2938,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Deep-ocean navigation by stars, swell and bird flight. The double-hulled voyaging canoe. Stellar compasses memorised rather than written.",
-   "id": "W26",
-   "num": "W26",
+   "id": "W28",
+   "num": "W28",
    "zone": "z8"
   },
   {
@@ -2891,9 +2975,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Sarwat Saulat, volume 2.",
    "inv": "The composite bow used from horseback at the gallop. A continental relay post. Religious tolerance written into law.",
-   "id": "W27",
-   "num": "W27",
-   "zone": "z8"
+   "id": "W30",
+   "num": "W30",
+   "zone": "z8",
+   "ground": "The Mongol army was cavalry and almost nothing else, and it moved at a speed that broke every calculation made against it. Each man kept several horses and switched between them to ride all day, lived on dried meat and mare's milk, and carried a bow he could fire backwards at the gallop. A city that surrendered was taxed. A city that resisted was made an example of, and the example was meant to reach the next city before the army did."
   },
   {
    "side": "w",
@@ -2934,9 +3019,10 @@ window.DATA = {
    "pop": null,
    "src": "UNESCO General History of Africa. World History Encyclopedia.",
    "inv": "Dry-stone architecture at Great Zimbabwe. Lost-wax bronze casting at Ife and Benin. Sub-Saharan iron smelting, developed independently.",
-   "id": "W28",
-   "num": "W28",
-   "zone": "z8"
+   "id": "W31",
+   "num": "W31",
+   "zone": "z8",
+   "ground": "Great Zimbabwe was built of dressed stone laid without any mortar, walls ten metres high curving in long smooth lines, so well made that when Europeans found the ruins they refused to believe Africans had built them and invented other builders to explain it away. It was the centre of a state that traded gold to the coast and Chinese porcelain and Persian glass have been dug out of its floors."
   },
   {
    "side": "w",
@@ -2965,8 +3051,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. McEvedy and Jones.",
    "inv": null,
-   "id": "W29",
-   "num": "W29",
+   "id": "W32",
+   "num": "W32",
    "zone": "z8"
   },
   {
@@ -2996,9 +3082,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Ocean-going ships with watertight compartments and stern-post rudders. Fleet-scale navigation and logistics.",
-   "id": "W30",
-   "num": "W30",
-   "zone": "z8"
+   "id": "W33",
+   "num": "W33",
+   "zone": "z8",
+   "ground": "The largest of Zheng He's ships were several times the size of anything Columbus would sail sixty years later, and the fleets carried tens of thousands of men across the Indian Ocean to Arabia and the coast of Africa, and brought a live giraffe back to the emperor. Then the court decided the voyages were a waste, burned the records, let the ships rot, and turned inward, and sixty years later small European ships arrived in those same seas and found them undefended."
   },
   {
    "side": "w",
@@ -3027,9 +3114,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. McEvedy and Jones.",
    "inv": "Floating agricultural gardens feeding a city of 200,000. Andean road engineering and suspension bridges. Freeze-drying of food. Knotted-string record keeping.",
-   "id": "W31",
-   "num": "W31",
-   "zone": "z8"
+   "id": "W34",
+   "num": "W34",
+   "zone": "z8",
+   "ground": "Tenochtitlan was built on an island in a lake and reached by causeways, its market feeding two hundred thousand people from gardens floating on the water itself, and the Spanish who first saw it wrote that they wondered whether they were dreaming. The Inca, meanwhile, ran an empire of ten million down the spine of the Andes with no writing, no wheel and no money, keeping their accounts on knotted coloured strings and their roads crossing gorges on woven rope bridges."
   },
   {
    "side": "w",
@@ -3058,9 +3146,10 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Movable metal type in Europe. Cheap paper books. The scientific journal follows within two centuries.",
-   "id": "W32",
-   "num": "W32",
-   "zone": "z9"
+   "id": "W35",
+   "num": "W35",
+   "zone": "z9",
+   "ground": "Gutenberg's press arrived at exactly the right moment. Greek scholars were fleeing a falling Constantinople with their manuscripts, Arabic science was being translated in Spain, and suddenly a book that had taken a scribe a year could be printed in quantity. Within fifty years there were millions of printed books in Europe where there had been tens of thousands, and no authority ever fully controlled the flow of words again."
   },
   {
    "side": "w",
@@ -3089,8 +3178,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": null,
-   "id": "W33",
-   "num": "W33",
+   "id": "W36",
+   "num": "W36",
    "zone": "z9"
   },
   {
@@ -3121,14 +3210,15 @@ window.DATA = {
      -38.5
     ]
    ],
-   "story": "About twelve million African people were shipped across the Atlantic in chains, and something close to two million died at sea before arriving. It is the largest forced movement of human beings in history, and the wealth it generated built cities, banks and industries in Europe and the Americas that are still there. Slavery existed in many societies and this site does not pretend otherwise, including in the Muslim world, which held slaves and traded them. What made this system different was its scale, its permanence, the fact that it was inherited by your children, and the racial theory invented afterwards to justify it. By the honest reckoning of this timeline it is the gravest crime of the modern era.",
-   "meanwhile": "On the other rail: this is happening at the same time as the height of the Ottoman, Safavid and Mughal empires, which also held slaves. This site does not excuse them either.",
+   "story": "About twelve million African people were shipped across the Atlantic in chains, and something close to two million died at sea before arriving. It is the largest forced movement of human beings in history, and the wealth it generated built cities, banks and industries in Europe and the Americas that are still there. Slavery existed in many societies, including in the Muslim world, which held slaves and traded them. What made this system different was its scale, its permanence, the fact that it was inherited by your children, and the racial theory invented afterwards to justify it. By scale, permanence and racial basis, it was the gravest crime of the modern era.",
+   "meanwhile": "On the other rail: this is happening at the same time as the height of the Ottoman, Safavid and Mughal empires, which also held slaves.",
    "pop": null,
    "src": "World History Encyclopedia. UNESCO General History of Africa.",
    "inv": null,
-   "id": "W34",
-   "num": "W34",
-   "zone": "z9"
+   "id": "W37",
+   "num": "W37",
+   "zone": "z9",
+   "ground": "The trade was a triangle run for profit. Ships carried manufactured goods south to the African coast, exchanged them for people, packed those people below decks for the Atlantic crossing on which roughly one in six died, sold the survivors in the Americas for sugar, tobacco and cotton, and carried those home to be sold again. Twelve million people were shipped this way, and the profits built banks, cities and industries that are still standing."
   },
   {
    "side": "w",
@@ -3157,8 +3247,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": null,
-   "id": "W35",
-   "num": "W35",
+   "id": "W38",
+   "num": "W38",
    "zone": "z9"
   },
   {
@@ -3200,8 +3290,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Newton's laws of motion and universal gravitation. Calculus. The steam engine, which is about to change everything.",
-   "id": "W36",
-   "num": "W36",
+   "id": "W39",
+   "num": "W39",
    "zone": "z10"
   },
   {
@@ -3231,8 +3321,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "The Napoleonic legal code. Modern artillery tactics. Canned food, invented to feed his armies.",
-   "id": "W37",
-   "num": "W37",
+   "id": "W40",
+   "num": "W40",
    "zone": "z10"
   },
   {
@@ -3262,8 +3352,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Sarwat Saulat, volumes 4 and 5.",
    "inv": "The steam engine, the railway, the telegraph, photography, anaesthesia, vaccination, the germ theory of disease, electric light, the telephone.",
-   "id": "W38",
-   "num": "W38",
+   "id": "W41",
+   "num": "W41",
    "zone": "z10"
   },
   {
@@ -3293,8 +3383,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Sarwat Saulat, volume 5.",
    "inv": "The tank, the fighter aircraft, chemical weapons, and blood transfusion and reconstructive surgery, which were born trying to repair what the rest of it did.",
-   "id": "W39",
-   "num": "W39",
+   "id": "W42",
+   "num": "W42",
    "zone": "z11"
   },
   {
@@ -3318,8 +3408,8 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia. Sarwat Saulat, volume 5.",
    "inv": null,
-   "id": "W40",
-   "num": "W40",
+   "id": "W43",
+   "num": "W43",
    "zone": "z11"
   },
   {
@@ -3355,22 +3445,115 @@ window.DATA = {
    "pop": null,
    "src": "World History Encyclopedia.",
    "inv": "Penicillin in mass production. Radar. The jet engine. The first programmable computers. Nuclear weapons.",
-   "id": "W41",
-   "num": "W41",
-   "zone": "z11"
+   "id": "W44",
+   "num": "W44",
+   "zone": "z11",
+   "ground": "The scale is almost impossible to hold in the mind: between seventy and eighty-five million dead, most of them civilians, whole cities burned from the air in a night. In the middle of it a modern state built factories whose product was the murder of human beings and killed six million Jews in them. The same few years produced penicillin, which has saved more lives than anything, and the atomic bomb, which can end them all. That is where this timeline stops."
+  },
+  {
+   "id": "W29",
+   "num": "W29",
+   "side": "w",
+   "sort": 1215,
+   "dated": true,
+   "yearLabel": "1215",
+   "ah": null,
+   "title": "Magna Carta",
+   "map": "1200",
+   "zone": "z8",
+   "pins": [
+    [
+     "The king is made to sign",
+     "Runnymede, England",
+     51.44,
+     -0.56
+    ]
+   ],
+   "story": "A group of rebel barons, who were not fighting for anybody's freedom but their own, forced a bad king to put his seal to a document saying that even he was bound by the law. Most of its clauses are about fish traps and feudal dues and were quietly ignored within months. But one clause said that no free man could be imprisoned or stripped of his rights except by the lawful judgement of his equals, and that sentence turned out to be a seed. It took five hundred years to grow into anything, and the people who invoked it later usually knew very little about what the barons had actually wanted.",
+   "meanwhile": "On the other rail: Islamic law had arrived at a comparable idea by a different road, and rather earlier. Judges applied a body of law developed by independent scholars, not written by the ruler, and in principle the caliph was subject to a law he had not authored and could not change. Neither tradition lived up to its own ideal consistently. Both had the ideal.",
+   "pop": null,
+   "src": "World History Encyclopedia.",
+   "inv": null
+  },
+  {
+   "id": "W18",
+   "num": "W18",
+   "side": "w",
+   "sort": 545,
+   "dated": true,
+   "yearLabel": "541 to 549 CE",
+   "ah": null,
+   "title": "The plague of Justinian",
+   "map": "400",
+   "zone": "z5",
+   "pins": [
+    [
+     "It arrives at the capital",
+     "Constantinople, now Istanbul",
+     41.01,
+     28.98
+    ],
+    [
+     "It reaches Egypt first",
+     "Pelusium, Egypt",
+     31.04,
+     32.54
+    ]
+   ],
+   "story": "The Roman emperor Justinian had almost put the empire back together. He had reconquered Italy and North Africa, codified Roman law into the form Europe would copy for a thousand years, and built Hagia Sophia. Then a plague arrived, carried by rats in the grain ships, and killed a huge share of the population of the Mediterranean world over two centuries of recurrences. The reconquest could not be held. Both Rome and Persia entered the next century with fewer people, less money and fewer soldiers than they had counted on, and that is a large part of why the map changed so fast a hundred years later.",
+   "meanwhile": "On the other rail: this is what hollows out the two superpowers before Muhammad is born. The world the first Muslims walked into was not strong. It was exhausted and half empty.",
+   "pop": null,
+   "src": "World History Encyclopedia.",
+   "inv": null
+  },
+  {
+   "id": "W21",
+   "num": "W21",
+   "side": "w",
+   "sort": 620,
+   "dated": true,
+   "yearLabel": "About 250 to 900 CE",
+   "ah": null,
+   "title": "The Maya, and the city of Teotihuacan",
+   "map": "600",
+   "zone": "z6",
+   "pins": [
+    [
+     "Teotihuacan, a city of over 100,000",
+     "Mexico",
+     19.69,
+     -98.84
+    ],
+    [
+     "Tikal, a Maya city",
+     "Guatemala",
+     17.22,
+     -89.62
+    ]
+   ],
+   "story": "While Arabia is changing, the other side of the world is at its height and has no idea any of it is happening. Teotihuacan in Mexico was one of the largest cities on earth, laid out on a grid around avenues and pyramids, and it collapsed for reasons still argued about. The Maya cities to the south were building observatories, tracking Venus with remarkable accuracy, and writing a full script that recorded the deeds of their kings with dates so precise that we can place their politics to the day. They had astronomy and mathematics including a zero, developed entirely independently of anyone else on this timeline.",
+   "meanwhile": "On the other rail: the entire life of Muhammad and the first caliphs. Two halves of humanity, both at a turning point, and neither knows the other exists.",
+   "pop": null,
+   "src": "World History Encyclopedia.",
+   "inv": "A written script recording history with exact dates. A zero, invented independently. Astronomy accurate enough to predict the movements of Venus over centuries."
   }
  ],
  "sources": {
   "historical": [
    [
     "The Quran",
-    "The primary source for everything on the gold rail. Verse references throughout point to chapter and verse, so any passage can be checked. The translation consulted for meaning is M. A. S. Abdel Haleem's, published by Oxford University Press, chosen for its plain and lucid English. Where a verse is quoted inside quotation marks, the wording is Pickthall's 1930 translation, which is out of copyright.",
+    "The primary source for everything on The Long Thread. Verse references throughout point to chapter and verse, so any passage can be looked up and read in full. Meanings are given in plain English rather than quoted.",
     "https://quran.com"
    ],
    [
     "The Hadith collections",
     "The recorded sayings and actions of the Prophet Muhammad, chiefly Sahih al-Bukhari and Sahih Muslim, used for the events of his life and the first generation.",
     "https://sunnah.com"
+   ],
+   [
+    "The Hebrew Bible (Tanakh) and the Christian Bible",
+    "Consulted for the prophets that Judaism, Christianity and Islam share, and used only where they corroborate the Quran and Islamic tradition, never to correct it. Where the accounts differ, the Islamic account leads and the difference is stated. The King James Version is quoted where a quotation is needed, since it is out of copyright.",
+    "https://www.biblegateway.com"
    ],
    [
     "Ibn Kathir, The Beginning and the End (al-Bidayah wan-Nihayah)",
@@ -3425,6 +3608,6 @@ window.DATA = {
     "https://github.com/aourednik/historical-basemaps"
    ]
   ],
-  "note": "Where the Islamic sources and modern scholarship disagree about an event, the Islamic sources lead, and the disagreement is stated rather than hidden. Where the subject is one Islamic sources do not cover, standard scholarship leads. No dates are invented for the undated eras. Population figures are estimates and are shown as such. Borders before the modern era were zones rather than lines, and the maps here should be read that way."
+  "note": ""
  }
 };

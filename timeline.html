@@ -68,6 +68,7 @@ nav.jump button:hover,nav.jump button:focus-visible{color:var(--gold-soft);borde
 .zone h2{font-family:var(--disp);font-weight:400;font-size:clamp(20px,3vw,27px);color:var(--gold-soft);
   display:inline-block;background:var(--ink);padding:6px 22px;border:1px solid var(--gold-dim);border-radius:2px}
 .zone p{font-family:var(--ui);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-top:10px;background:var(--ink);display:inline-block;padding:0 12px}
+.zone .znote{font-family:var(--body);font-size:13.5px;letter-spacing:0;text-transform:none;color:var(--dim);max-width:560px;margin:14px auto 0;line-height:1.6;font-style:italic;padding:10px 16px;border-left:2px solid var(--gold-dim);background:var(--ink2);display:block;border-radius:3px}
 .row{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:26px;z-index:1}
 .row.paired::before{content:'';position:absolute;top:26px;left:12%;right:12%;height:1px;
   background:linear-gradient(90deg,transparent,rgba(157,177,199,.35) 22%,rgba(201,161,59,.45) 78%,transparent);z-index:0}
@@ -120,6 +121,11 @@ nav.jump button:hover,nav.jump button:focus-visible{color:var(--gold-soft);borde
 .map-toggle button.on{background:var(--gold);color:var(--ink)}
 .map-toggle button:not(.on):hover{color:var(--gold-soft)}
 .map-cap{font-family:var(--ui);font-size:11px;color:var(--dim);letter-spacing:.06em;margin-top:8px}
+.ground{margin-top:20px;padding:18px 20px;background:linear-gradient(180deg,var(--ink3),var(--ink2));border:1px solid var(--gold-dim);border-radius:7px;max-width:760px}
+.ground .gt{font-family:var(--ui);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.ground p{font-size:16px;line-height:1.7;color:var(--ivory)}
+.shared{max-width:760px;padding:2px 0}
+.shared p{font-size:16px;line-height:1.75}
 .pins{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-top:16px}
 .pin-card{background:var(--ink2);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:5px;padding:11px 13px}
 .pin-card .pn{font-family:var(--disp);font-size:15px;color:var(--ivory)}
@@ -207,9 +213,9 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:50px 20px 70px;b
       <div><span class="n">1</span><b>Scroll the two rails.</b> Gold entries on the right follow The Long Thread. Silver entries on the left follow The Wider World. When two entries sit side by side, those things were happening at the same time.</div>
       <div><span class="n">2</span><b>Click any entry.</b> It opens the world map of that era, with the borders as they actually were, not as they are now.</div>
       <div><span class="n">3</span><b>Hover the map.</b> Any territory will tell you who held it at that moment. Gold pins mark the places in the story, with the name it had then, the name it has now, and its coordinates.</div>
-      <div><span class="n">4</span><b>Open the panels.</b> Every era tells you what people spoke, what they used for money, what they invented, which animals lived alongside them, and a Moral Ledger naming that age's worst injustices and its fairest societies, whoever they were.</div>
+      <div><span class="n">4</span><b>Read the close-up.</b> Where the sources give real detail, an entry carries a short "On the ground" note: what the place looked like, how many people, what they ate, what a moment there was actually like.</div>
     </div>
-    <p class="howto-foot">You need no background knowledge and no particular faith to read this. Religious and historical terms are explained in ordinary English with the original word in brackets. Eras that our sources do not date are left undated rather than filled with invented years. The Islamic sources lead on the gold rail, standard scholarship leads on the silver one, and where they disagree the disagreement is stated rather than hidden.</p>
+    
   </section>
 <nav class="jump" id="jump" aria-label="Jump to era"></nav>
 
@@ -324,7 +330,7 @@ buildRows(MS).forEach(function(r){
   if(z !== lastZone){
     var zd = D.zones[z], zEl = document.createElement('div');
     zEl.className='zone'; zEl.id=lead.zone;
-    zEl.innerHTML='<h2>'+esc(zd.name)+'</h2><p>'+esc(zd.sub)+'</p>';
+    zEl.innerHTML='<h2>'+esc(zd.name)+'</h2><p>'+esc(zd.sub)+'</p>'+(zd.note?'<p class="znote">'+esc(zd.note)+'</p>':'');
     tl.appendChild(zEl); lastZone=z;
   }
   var row=document.createElement('div');
@@ -393,7 +399,7 @@ sl.innerHTML =
   srcBlock('The scholarship',
            'These are modern works, used for The Wider World, for the population figures, and for the maps.',
            D.sources.modern) +
-  '<p class="src-note">'+esc(D.sources.note)+'</p>';
+  (D.sources.note ? '<p class="src-note">'+esc(D.sources.note)+'</p>' : '');
 
 /* ---------- map engine (plain SVG, equirectangular) ---------- */
 var MAPW=1000, MAPH=500;
@@ -486,29 +492,31 @@ function renderMap(container, m){
       var name=props.NAME||props.SUBJECTO||'';
       var subj=props.SUBJECTO;
       if(name) name=name.replace(/\?/g,'a');
-      p.setAttribute('fill', named ? FILLS[hashStr(subj||name)%FILLS.length] : '#1b2540');
+      p.setAttribute('fill', m.nomap ? '#1b2740' : (named ? FILLS[hashStr(subj||name)%FILLS.length] : '#1b2540'));
       p.setAttribute('stroke','#0b1223'); p.setAttribute('stroke-width','.45');
       p.setAttribute('fill-rule','evenodd');
-      p.style.cursor='crosshair';
-      p.addEventListener('mousemove',function(ev){
-        var h;
-        if(!named){
-          h='<div class="tt">This land, at this time</div><b>No recorded state here</b>'+
-            '<br><span style="color:var(--dim)">People lived here, but the map data records no state or kingdom. Often that means farmers, herders or hunters living without a central ruler.</span>';
-        } else if(subj && subj!==name){
-          h='<div class="tt">This land, at this time</div><b>'+esc(name)+'</b>'+
-            '<br><span style="color:var(--dim)">ruled by '+esc(subj)+'</span>';
-        } else {
-          h='<div class="tt">This land, at this time</div><b>'+esc(name)+'</b>';
-        }
-        var r=svg.getBoundingClientRect(), vb=svg.getAttribute('viewBox').split(' ').map(Number);
-        var ux=vb[0]+(ev.clientX-r.left)/r.width*vb[2], uy=vb[1]+(ev.clientY-r.top)/r.height*vb[3];
-        var lon=ux/MAPW*360-180, lat=90-uy/MAPH*180;
-        h+='<div class="tc">'+fmtCoord(lat,lon)+'</div>';
-        showTip(h,ev.clientX,ev.clientY);
-        p.setAttribute('stroke','#c9a13b'); p.setAttribute('stroke-width', (parseFloat(p.dataset.sw||0.45)*2.4).toFixed(2));
-      });
-      p.addEventListener('mouseleave',function(){ hideTip(); p.setAttribute('stroke','#0b1223'); p.setAttribute('stroke-width', p.dataset.sw||'0.45'); });
+      if(!m.nomap){
+        p.style.cursor='crosshair';
+        p.addEventListener('mousemove',function(ev){
+          var h;
+          if(!named){
+            h='<div class="tt">This land, at this time</div><b>No recorded state here</b>'+
+              '<br><span style="color:var(--dim)">People lived here, but the map data records no state or kingdom. Often that means farmers, herders or hunters living without a central ruler.</span>';
+          } else if(subj && subj!==name){
+            h='<div class="tt">This land, at this time</div><b>'+esc(name)+'</b>'+
+              '<br><span style="color:var(--dim)">ruled by '+esc(subj)+'</span>';
+          } else {
+            h='<div class="tt">This land, at this time</div><b>'+esc(name)+'</b>';
+          }
+          var r=svg.getBoundingClientRect(), vb=svg.getAttribute('viewBox').split(' ').map(Number);
+          var ux=vb[0]+(ev.clientX-r.left)/r.width*vb[2], uy=vb[1]+(ev.clientY-r.top)/r.height*vb[3];
+          var lon=ux/MAPW*360-180, lat=90-uy/MAPH*180;
+          h+='<div class="tc">'+fmtCoord(lat,lon)+'</div>';
+          showTip(h,ev.clientX,ev.clientY);
+          p.setAttribute('stroke','#c9a13b'); p.setAttribute('stroke-width', (parseFloat(p.dataset.sw||0.45)*2.4).toFixed(2));
+        });
+        p.addEventListener('mouseleave',function(){ hideTip(); p.setAttribute('stroke','#0b1223'); p.setAttribute('stroke-width', p.dataset.sw||'0.45'); });
+      }
       svg.appendChild(p);
     });
     (m.pins||[]).forEach(function(pin){
@@ -580,7 +588,7 @@ function openM(id){
   var h='';
   h+='<div class="ov-head"><div class="k" style="color:'+(m.side==='t'?'var(--gold)':'var(--silver)')+'">'+esc(m.num)+' · '+esc(side)+' · '+esc(m.yearLabel)+(m.ah?' · '+esc(m.ah):'')+'</div>';
   h+='<h2>'+esc(m.title)+'</h2></div>';
-  h+='<div class="map-note"><span>The world map of this era'+(m.dated?'':' — <b>undated on purpose: the order is known, the years are not</b>')+'</span><span>Hover any land: <b>who ruled it then</b> · gold pins: <b>the places in this story</b></span></div>';
+  h+='<div class="map-note"><span>'+(m.nomap?'Deep time, before the bordered world. The places are shown; the borders are not, because there were none yet.':'The world map of this era')+'</span><span>'+(m.nomap?'Gold pins: <b>the places in this story</b>':'Hover any land: <b>who ruled it then</b> · gold pins: <b>the places in this story</b>')+'</span></div>';
   h+='<div class="map-box" id="mapBox"></div>';
   h+='<div class="map-cap">Era borders are scholarly approximations (Historical Basemaps); ancient boundaries were zones, not lines.</div>';
   if(m.pins && m.pins.length){
@@ -589,23 +597,20 @@ function openM(id){
              '<div class="pc">'+fmtCoord(p[2],p[3])+'</div></div>';
     }).join('')+'</div>';
   }
+  if(m.ground){
+    h+='<div class="ground"><div class="gt">On the ground</div><p>'+esc(m.ground)+'</p></div>';
+  }
   h+='<div class="sec"><div class="sh">'+(m.side==='t'?'The story, as the Islamic sources tell it':'The story')+'</div><div class="body">'+esc(m.story)+'</div>';
   if(m.pop) h+='<div class="pop">Population · '+esc(m.pop)+'</div>';
   h+='</div>';
+  if(m.shared){
+    h+='<div class="sec"><div class="sh">Across the traditions</div><div class="shared"><p>'+esc(m.shared)+'</p></div></div>';
+  }
   if(m.inv){
     h+='<div class="sec"><div class="sh">What this age invented</div><div class="mw" style="border-left:3px solid var(--gold)">'+esc(m.inv)+'</div></div>';
   }
   if(m.meanwhile){
     h+='<div class="sec"><div class="sh">'+(m.side==='t'?'Meanwhile, elsewhere in the world':'On the other rail')+'</div><div class="mw">'+esc(m.meanwhile)+'</div></div>';
-  }
-  var pan = m.zone && D.panels[m.zone];
-  if(pan){
-    h+='<div class="sec panel"><div class="sh">Life in this age: '+esc(pan.title)+'</div>';
-    PANEL_FIELDS.forEach(function(f,ix){
-      if(!pan[f[0]]) return;
-      h+='<details'+(ix===7?' open':'')+'><summary><span class="ic">'+f[2]+'</span>'+esc(f[1])+'</summary><p>'+esc(pan[f[0]])+'</p></details>';
-    });
-    h+='</div>';
   }
   h+='<div class="sec"><div class="sh">Where this comes from</div><div class="src">'+esc(m.src)+'</div></div>';
   var prev=MS[m._ix-1], next=MS[m._ix+1];
